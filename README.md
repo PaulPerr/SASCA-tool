@@ -1,6 +1,6 @@
 # SASCA-tool
 
-this tool is dedicated to automatized the creation of factor for side attack channel 
+this tool is dedicated to automatized the creation of factor for side attack channel. Created by Paul Perrotin
 
 # Example and usage 
 
