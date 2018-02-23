@@ -1,13 +1,10 @@
 # SASCA-tool
 
-this tool is dedicated to automatized the creation of factor for side attack channel. Created by Paul Perrotin
+This tool allows to automate soft-analytical side-channel attacks. This tool was created by Paul Perrotin and supervised by Olivier Markowitch and Liran Lerman from the QualSec group at the Université libre de Bruxelles.
 
 # Example and usage 
 
-for run the example you just have to lanche the compile.sh file and run the executable 
+The file compile.sh allows to run the examples.
 
-you can modify and adapte the example if you want.
-
-More example comming soon. 
 
 
