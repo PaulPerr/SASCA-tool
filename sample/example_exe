@@ -1,0 +1,33 @@
+example.elf 0x0000:                                LDI R31, 0x00 
+example.elf 0x0002:                                LDI R30, 0x26 
+example.elf 0x0004:                                LPM R16, Z+ FLASH[26,] 
+example.elf 0x0004:                                CPU-waitstate
+example.elf 0x0004:                                CPU-waitstate
+example.elf 0x0006:                                LPM R17, Z FLASH[27,] 
+example.elf 0x0006:                                CPU-waitstate
+example.elf 0x0006:                                CPU-waitstate
+example.elf 0x0008:                                LDI R31, 0x00 
+example.elf 0x000a:                                LDI R30, 0x24 
+example.elf 0x000c:                                LPM R18, Z+ FLASH[24,] 
+example.elf 0x000c:                                CPU-waitstate
+example.elf 0x000c:                                CPU-waitstate
+example.elf 0x000e:                                LPM R19, Z FLASH[25,] 
+example.elf 0x000e:                                CPU-waitstate
+example.elf 0x000e:                                CPU-waitstate
+example.elf 0x0010:                                EOR R18, R16 SREG=[--------] 
+example.elf 0x0012:                                EOR R19, R17 SREG=[--------] 
+example.elf 0x0014:                                LDI R31, 0x10 
+example.elf 0x0016:                                LDI R30, 0x00 
+example.elf 0x0018:                                MOV R30, R19 
+example.elf 0x001a:                                LPM R20, Z FLASH[103d,] 
+example.elf 0x001a:                                CPU-waitstate
+example.elf 0x001a:                                CPU-waitstate
+example.elf 0x001c:                                MOV R30, R18 
+example.elf 0x001e:                                LPM R21, Z FLASH[1019,] 
+example.elf 0x001e:                                CPU-waitstate
+example.elf 0x001e:                                CPU-waitstate
+example.elf 0x0020:                                EOR R18, R20 SREG=[--------] 
+example.elf 0x0022:                                EOR R19, R21 SREG=[---S-N--] 
+example.elf 0x0024:                                SBCI R19, 0x32 SREG=[---S-N--] 
+example.elf 0x0026:                                ANDI R18, 0xeb SREG=[--------] 
+example.elf 0x0028:                                Invalid Instruction! 

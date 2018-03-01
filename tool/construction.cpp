@@ -6,7 +6,6 @@ Model modelCreation(std::map<std::__cxx11::string, int> fonctions,  std::map<std
                     std::map<std::string,std::vector<int> > link, std::vector<int> var)
 {
 
-    typedef opengm::GraphicalModel<float, opengm::Adder> Model;
     opengm::DiscreteSpace<> space;
     for(int i =0 ; i < var.size() ;i++)
     {
@@ -233,7 +232,7 @@ void fonctionTroisieme(Model * gm,std::vector<std::vector<std::vector<float> > >
 }
 
 
-void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int iteration){
+void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int iteration,bool allVariables){
     typedef opengm::BeliefPropagationUpdateRules<Model, opengm::Maximizer> UpdateRules;
     typedef opengm::MessagePassing<Model, opengm::Maximizer, UpdateRules, opengm::MaxDistance> BeliefPropagation;
     typedef Model::IndependentFactorType IndependentFactor;
@@ -273,7 +272,7 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int i
         for(int j=0;j<gm.numberOfLabels(variable);j++)
         {
 
-            if(IF(j)==0){
+            if(IF(j)==0 || allVariables){
 
 
                 std::cout<<"state: "<<j<<" probability value: "<<IF(j)<<" ; ";
@@ -295,44 +294,7 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int i
 
     }
 }
-void beliefPropagationMul(Model gm){
 
-    // set up the optimizer (tree re−weighted belief propagation)
-    typedef opengm::TrbpUpdateRules<Model, opengm::Maximizer> UpdateRules;
-    typedef opengm::MessagePassing<Model, opengm::Maximizer, UpdateRules, opengm::MaxDistance> TRBP;
-    const size_t maxNumberOfIterations = 100;
-    const double convergenceBound = 1e-7;
-    const double damping = 0.0;
-    TRBP::Parameter parameter(maxNumberOfIterations, convergenceBound, damping);
-    TRBP trbp(gm, parameter);
-    std::cout << "debut opti" << std::endl;
-    // optimize (approximately)
-
-    TRBP::VerboseVisitorType visitor;
-    trbp.infer(visitor);
-    std::cout << "fin opti"<<std::endl;
-    // obtain the (approximate) argmax
-    std::vector<size_t> labeling(gm.numberOfVariables());
-    trbp.arg(labeling);
-    Model::IndependentFactorType IF;
-    for(size_t variable = 0; variable < gm.numberOfVariables(); ++variable) {
-
-        trbp.marginal(variable,IF);
-
-        std::cout << "x" << variable << "=" << labeling[variable] <<"\n";
-        for(int j=0;j<gm.numberOfLabels(variable);j++)
-        {
-            if(IF(j) != -1){
-
-                std::cout<<"state: "<<j<<" marginal value: "<<IF(j)<<"; ";
-                std::cout<<"\n";
-            }
-
-        }
-
-    }
-
-}
 std::map<std::string, int> transformationASM(std::vector<std::string> contenue,std::map<std::string, std::vector<std::vector<std::vector<float> > > > &probaTab,  std::map<std::string,std::vector<int> > &link,std::vector<int> &var,std::map<std::__cxx11::string, int> &fonctions, std::string hammingweight , std::map<std::string,std::vector<int> > valeurFixer,std::map<int,int >valeurResultat,std::map<int,std::vector<int> > box,bool graph,bool cycle){
 
 
@@ -1291,4 +1253,3 @@ void standartInstruction(std::string key,std::vector<std::vector<std::vector<flo
         }
     }
 }
-
