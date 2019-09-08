@@ -7,4 +7,6 @@ This tool allows to automate soft-analytical side-channel attacks. This tool was
 The file compile.sh allows to run the examples.
 
 
+# Simulation
 
+For generate the different traces (execution and hamming traces) use the lanch.sh in the simulation directory after compile the simulator.
