@@ -232,7 +232,7 @@ void fonctionTroisieme(Model * gm,std::vector<std::vector<std::vector<float> > >
 }
 
 
-void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int iteration,bool allVariables){
+void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int iteration, bool allVariables, std::vector<int> keyposition){
     typedef opengm::BeliefPropagationUpdateRules<Model, opengm::Maximizer> UpdateRules;
     typedef opengm::MessagePassing<Model, opengm::Maximizer, UpdateRules, opengm::MaxDistance> BeliefPropagation;
     typedef Model::IndependentFactorType IndependentFactor;
@@ -253,10 +253,12 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int i
     std::vector<size_t> labeling(gm.numberOfVariables());
     bp.arg(labeling);
     Model::IndependentFactorType IF;
+    std::vector<int> combinaison(keyposition.size());
+    int compteurCobinaison = 0;
     for(size_t variable = 0; variable < gm.numberOfVariables(); ++variable) {
 
         bp.marginal(variable,IF);
-
+        int cominaisonTmp = 0;
         std::cout << "x" << variable << "=" << labeling[variable] <<"\n";
         std::ostringstream trans;
         trans << variable;
@@ -271,6 +273,7 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int i
 
         for(int j=0;j<gm.numberOfLabels(variable);j++)
         {
+
 
             if(IF(j)==0 || allVariables){
 
@@ -288,13 +291,51 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output,int i
                 std::cout<<"\n";
 
             }
+            if(std::find(keyposition.begin(), keyposition.end(),(int) variable) != keyposition.end() && IF(j)==0){
+
+                cominaisonTmp++;
+
+            }
 
 
         }
+        if(cominaisonTmp!=0){
+            combinaison[compteurCobinaison]=cominaisonTmp;
+            compteurCobinaison++;
+        }
+
 
     }
-}
+    if(keyposition.size() > 0 ){
+        int total =1;
+        for(int cpta = 0 ; cpta < combinaison.size(); cpta++){
+            total = total * combinaison[cpta];
+        }
 
+      int power = nearPowerTwo(total);
+      std::ostringstream buff3;
+      buff3 << power;
+      std::string puiss = " Position of the key 2 ^ "+buff3.str();
+      std::cout<<puiss<<"\n";
+      output.push_back(puiss);
+
+
+    }
+
+}
+int nearPowerTwo(int total){
+    int i=0 ;
+    int p=1 ;
+    while(p<total){
+
+        p=p*2;
+        i++;
+    }
+
+
+    return i;
+
+}
 std::map<std::string, int> transformationASM(std::vector<std::string> contenue,std::map<std::string, std::vector<std::vector<std::vector<float> > > > &probaTab,  std::map<std::string,std::vector<int> > &link,std::vector<int> &var,std::map<std::__cxx11::string, int> &fonctions, std::string hammingweight , std::map<std::string,std::vector<int> > valeurFixer,std::map<int,int >valeurResultat,std::map<int,std::vector<int> > box,bool graph,bool cycle){
 
 
