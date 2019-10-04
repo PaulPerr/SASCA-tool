@@ -320,7 +320,7 @@ void translation(std::vector<std::vector<float>> valeur){
 
         std::string ligne;
         if(cpt == 0){
-            ligne ="scores_example.h \ndouble global_score_10[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
+            ligne ="#include \"scores_example.h\" \ndouble global_score_10[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
 
         }else if(cpt == 1){
             ligne ="double global_score_21[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
@@ -361,7 +361,7 @@ void translation(std::vector<std::vector<float>> valeur){
 
 
         }
-        std::string par = "}";
+        std::string par = "};";
         ligne += par;
 
         output.push_back(ligne);
