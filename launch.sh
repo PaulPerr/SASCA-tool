@@ -1,9 +1,9 @@
 #/bin/sh
 
-#./simulation/launch
+./simulation/launch
 
-#cp ./simulation/testTrace_exe  ./sample/exemple_exe
-#cp ./simulation/testTrace ./sample/example
+cp ./simulation/testTrace_exe  ./sample/exemple_exe
+cp ./simulation/testTrace ./sample/example
 cd ./tool/
 ./compile.sh
 ./Construction
