@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
+#include <fstream>
 #include <boost/lexical_cast.hpp>
 #include <opengm/graphicalmodel/graphicalmodel.hxx>
 #include <opengm/graphicalmodel/space/simplediscretespace.hxx>
@@ -54,7 +55,7 @@ void fonctionTroisieme(Model * gm, std::vector<std::vector<std::vector<float> > 
  * @param iteration  the number of iteration for the belief propagation
  * @param allVariables true for have all varaible , false for print only the most
  */
-void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int iteration, bool allVariables,std::vector<int> keyposition);
+void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int iteration, bool allVariables, bool keyposition ,std::vector<int> nodeKey);
 /**
  * @brief transformationASM
  * @param contenue the vector whiwh contain the execution stack
@@ -150,10 +151,6 @@ void specialInstruction(std::string key, std::map<std::string,int> traitement, s
  * @param lienF
  */
 void standartInstruction(std::string key, std::vector<std::vector<std::vector<float> > > &tmpProba, int nbLabel, std::map<std::__cxx11::string, int> &fonctions, std::string nomFonction , std::vector<std::vector<float > > tabProbFonc, std::vector<int> stockR30, std::vector<int>  stockR28, std::vector<int> stockR26, std::vector<int> stockLPMR30, std::vector<int>  stockLPMR28, std::vector<int> stockLPMR26, std::map<std::string,int> varIndex, std::map<int,std::vector<std::string> > &varFonc, int i, bool LPMReg , int idLPMReg, std::string ligneEnCours, std::map<int,std::vector<int> > box, std::vector<int> &lienF);
-/**
- * @brief nearPowerTwo
- * @param total
- * @return
- */
-int nearPowerTwo(int total);
+void translation(std::vector<std::vector<float>> valeur);
+
 #endif // CONSTRUCTION_H

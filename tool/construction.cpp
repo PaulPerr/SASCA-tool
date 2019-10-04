@@ -232,7 +232,7 @@ void fonctionTroisieme(Model * gm,std::vector<std::vector<std::vector<float> > >
 }
 
 
-void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int iteration, bool allVariables, std::vector<int> keyposition){
+void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int iteration, bool allVariables, bool keyposition ,std::vector<int> nodeKey){
     typedef opengm::BeliefPropagationUpdateRules<Model, opengm::Maximizer> UpdateRules;
     typedef opengm::MessagePassing<Model, opengm::Maximizer, UpdateRules, opengm::MaxDistance> BeliefPropagation;
     typedef Model::IndependentFactorType IndependentFactor;
@@ -253,12 +253,11 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int 
     std::vector<size_t> labeling(gm.numberOfVariables());
     bp.arg(labeling);
     Model::IndependentFactorType IF;
-    std::vector<int> combinaison(keyposition.size());
-    int compteurCobinaison = 0;
+    std::vector<std::vector<float>> listValue ;
     for(size_t variable = 0; variable < gm.numberOfVariables(); ++variable) {
 
         bp.marginal(variable,IF);
-        int cominaisonTmp = 0;
+        std::vector<float> tmpValue;
         std::cout << "x" << variable << "=" << labeling[variable] <<"\n";
         std::ostringstream trans;
         trans << variable;
@@ -273,6 +272,11 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int 
 
         for(int j=0;j<gm.numberOfLabels(variable);j++)
         {
+            if(keyposition && std::find(nodeKey.begin(), nodeKey.end(),(int) variable) != nodeKey.end()){
+
+                tmpValue.push_back((float)IF(j));
+                //std::cout << tmpValue[tmpValue.size()] << " \n ";
+            }
 
 
             if(IF(j)==0 || allVariables){
@@ -291,49 +295,90 @@ void beliefPropagation(Model gm, std::vector<std::__cxx11::string> &output, int 
                 std::cout<<"\n";
 
             }
-            if(std::find(keyposition.begin(), keyposition.end(),(int) variable) != keyposition.end() && IF(j)==0){
 
-                cominaisonTmp++;
 
+
+        }
+        if(keyposition && std::find(nodeKey.begin(), nodeKey.end(),(int) variable) != nodeKey.end()){
+            listValue.push_back(tmpValue);
+        }
+
+
+        if(keyposition){
+            translation(listValue);
+        }
+
+
+    }
+
+
+}
+
+void translation(std::vector<std::vector<float>> valeur){
+    std::vector<std::string> output;
+    for (int cpt = 0; cpt <= 5 ; cpt++){
+
+        std::string ligne;
+        if(cpt == 0){
+            ligne ="scores_example.h \ndouble global_score_10[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
+
+        }else if(cpt == 1){
+            ligne ="double global_score_21[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
+
+        }else if(cpt == 2){
+            ligne ="double global_score_25[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
+
+        }else if(cpt == 3){
+            ligne ="double global_score_29[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
+
+        }else if(cpt == 4){
+            ligne ="double global_score_34[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
+
+        }else{
+            ligne ="double global_score_39[NB_SUBKEY_INIT][NB_KEY_VALUE_INIT] = {";
+
+        }
+
+        for(int i = 0; i < valeur.size(); i++){
+            std::string par = "{";
+            ligne += par;
+            for(int p = 0 ; p < valeur[i].size() ; p++){
+                std::ostringstream buff;
+                buff << valeur[i][p];
+                std::string tmp = buff.str();
+                ligne += tmp;
+                if(p<valeur[i].size()-1){
+                    ligne += ",";
+                }
+
+
+            }
+            par = "}";
+            ligne += par;
+            if(i<valeur.size()-1){
+                ligne += ",";
             }
 
 
         }
-        if(cominaisonTmp!=0){
-            combinaison[compteurCobinaison]=cominaisonTmp;
-            compteurCobinaison++;
+        std::string par = "}";
+        ligne += par;
+
+        output.push_back(ligne);
+    }
+    std::ofstream fichierOut("../scores_example_data", std::ios::out);
+
+    if(fichierOut)
+    {
+        for(int i = 0 ; i < output.size() ; i++){
+            fichierOut << output[i] << std::endl;
         }
-
-
+        fichierOut.close();
     }
-    if(keyposition.size() > 0 ){
-        int total =1;
-        for(int cpta = 0 ; cpta < combinaison.size(); cpta++){
-            total = total * combinaison[cpta];
-        }
+    else{
 
-      int power = nearPowerTwo(total);
-      std::ostringstream buff3;
-      buff3 << power;
-      std::string puiss = " Position of the key 2 ^ "+buff3.str();
-      std::cout<<puiss<<"\n";
-      output.push_back(puiss);
-
-
+        std::cerr << "Error in output file!" << std::endl;
     }
-
-}
-int nearPowerTwo(int total){
-    int i=0 ;
-    int p=1 ;
-    while(p<total){
-
-        p=p*2;
-        i++;
-    }
-
-
-    return i;
 
 }
 std::map<std::string, int> transformationASM(std::vector<std::string> contenue,std::map<std::string, std::vector<std::vector<std::vector<float> > > > &probaTab,  std::map<std::string,std::vector<int> > &link,std::vector<int> &var,std::map<std::__cxx11::string, int> &fonctions, std::string hammingweight , std::map<std::string,std::vector<int> > valeurFixer,std::map<int,int >valeurResultat,std::map<int,std::vector<int> > box,bool graph,bool cycle){

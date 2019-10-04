@@ -84,10 +84,11 @@ int main()
     clock_t stopTime;
     clock_t startTime = clock();
     std::vector<std::string> output;
-    std::vector<int> keyposition(2);
-    keyposition[0]=2;
-    keyposition[1]=3;
-    beliefPropagation(gm,output,0,false,keyposition);
+    bool keyPosition = true;
+    std::vector<int> nodeKey;
+    nodeKey.push_back(2);
+    nodeKey.push_back(3);
+    beliefPropagation(gm,output,0,true,keyPosition,nodeKey);
 
     stopTime = clock();
     elapsedTime = (stopTime - startTime) / (CLOCKS_PER_SEC / (double) 1000.0);

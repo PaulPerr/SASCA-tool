@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/grosso/!svn/ver/891/2015/rankestimation_knapsack/hel_lib/hel_lib
+END
+aes.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/aes.h
+END
+scores_example.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/scores_example.h
+END
+hel_histo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_histo.cpp
+END
+hel_struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_struct.h
+END
+hel_histo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_histo.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/grosso/!svn/ver/902/2015/rankestimation_knapsack/hel_lib/hel_lib/README.txt
+END
+hel_execute.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_execute.cpp
+END
+hel_init.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_init.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/makefile
+END
+hel_enum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_enum.cpp
+END
+main_example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/grosso/!svn/ver/899/2015/rankestimation_knapsack/hel_lib/hel_lib/main_example.cpp
+END
+hel_execute.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_execute.h
+END
+hel_init.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_init.h
+END
+hel_enum.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_enum.h
+END
+scores_example_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/scores_example_data.cpp
+END
+hel_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_util.cpp
+END
+aes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/aes.cpp
+END
+scores_example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/scores_example.cpp
+END
+hel_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/grosso/!svn/ver/884/2015/rankestimation_knapsack/hel_lib/hel_lib/hel_util.h
+END
