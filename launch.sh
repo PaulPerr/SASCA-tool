@@ -8,8 +8,11 @@ cd ./tool/
 ./compile.sh
 ./Construction
 cd ..
-mv ./scores_example_data ./hel_lib/scores_example_data.cpp
-cd ./hel_lib/
-make
-./test
+
+# for execute this part you need an exemple with a 128 bit key
+#
+#mv ./scores_example_data ./hel_lib/scores_example_data.cpp
+#cd ./hel_lib/
+#make
+#./test
 
