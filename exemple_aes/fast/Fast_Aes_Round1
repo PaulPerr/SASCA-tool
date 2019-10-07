@@ -1,0 +1,528 @@
+Aesfast.elf 0x0000:                                CLI SREG=[--------] 
+Aesfast.elf 0x0002:                                LDI R31, 0x04 
+Aesfast.elf 0x0004:                                OUT 0x3e, R31 SP=0x400 
+Aesfast.elf 0x0006:                                LDI R31, 0x5f 
+Aesfast.elf 0x0008:                                OUT 0x3d, R31 SP=0x45f 
+Aesfast.elf 0x000a:                                LDI R31, 0x00 
+Aesfast.elf 0x000c:                                LDI R30, 0xa6 
+Aesfast.elf 0x000e:                                LPM R0, Z+ FLASH[a6,] 
+Aesfast.elf 0x000e:                                CPU-waitstate
+Aesfast.elf 0x000e:                                CPU-waitstate
+Aesfast.elf 0x0010:                                LPM R1, Z+ FLASH[a7,] 
+Aesfast.elf 0x0010:                                CPU-waitstate
+Aesfast.elf 0x0010:                                CPU-waitstate
+Aesfast.elf 0x0012:                                LPM R2, Z+ FLASH[a8,] 
+Aesfast.elf 0x0012:                                CPU-waitstate
+Aesfast.elf 0x0012:                                CPU-waitstate
+Aesfast.elf 0x0014:                                LPM R3, Z+ FLASH[a9,] 
+Aesfast.elf 0x0014:                                CPU-waitstate
+Aesfast.elf 0x0014:                                CPU-waitstate
+Aesfast.elf 0x0016:                                LPM R4, Z+ FLASH[aa,] 
+Aesfast.elf 0x0016:                                CPU-waitstate
+Aesfast.elf 0x0016:                                CPU-waitstate
+Aesfast.elf 0x0018:                                LPM R5, Z+ FLASH[ab,] 
+Aesfast.elf 0x0018:                                CPU-waitstate
+Aesfast.elf 0x0018:                                CPU-waitstate
+Aesfast.elf 0x001a:                                LPM R6, Z+ FLASH[ac,] 
+Aesfast.elf 0x001a:                                CPU-waitstate
+Aesfast.elf 0x001a:                                CPU-waitstate
+Aesfast.elf 0x001c:                                LPM R7, Z+ FLASH[ad,] 
+Aesfast.elf 0x001c:                                CPU-waitstate
+Aesfast.elf 0x001c:                                CPU-waitstate
+Aesfast.elf 0x001e:                                LPM R8, Z+ FLASH[ae,] 
+Aesfast.elf 0x001e:                                CPU-waitstate
+Aesfast.elf 0x001e:                                CPU-waitstate
+Aesfast.elf 0x0020:                                LPM R9, Z+ FLASH[af,] 
+Aesfast.elf 0x0020:                                CPU-waitstate
+Aesfast.elf 0x0020:                                CPU-waitstate
+Aesfast.elf 0x0022:                                LPM R10, Z+ FLASH[b0,] 
+Aesfast.elf 0x0022:                                CPU-waitstate
+Aesfast.elf 0x0022:                                CPU-waitstate
+Aesfast.elf 0x0024:                                LPM R11, Z+ FLASH[b1,] 
+Aesfast.elf 0x0024:                                CPU-waitstate
+Aesfast.elf 0x0024:                                CPU-waitstate
+Aesfast.elf 0x0026:                                LPM R12, Z+ FLASH[b2,] 
+Aesfast.elf 0x0026:                                CPU-waitstate
+Aesfast.elf 0x0026:                                CPU-waitstate
+Aesfast.elf 0x0028:                                LPM R13, Z+ FLASH[b3,] 
+Aesfast.elf 0x0028:                                CPU-waitstate
+Aesfast.elf 0x0028:                                CPU-waitstate
+Aesfast.elf 0x002a:                                LPM R14, Z+ FLASH[b4,] 
+Aesfast.elf 0x002a:                                CPU-waitstate
+Aesfast.elf 0x002a:                                CPU-waitstate
+Aesfast.elf 0x002c:                                LPM R15, Z+ FLASH[b5,] 
+Aesfast.elf 0x002c:                                CPU-waitstate
+Aesfast.elf 0x002c:                                CPU-waitstate
+Aesfast.elf 0x002e:                                LDI R29, 0x00 
+Aesfast.elf 0x0030:                                LDI R28, 0x60 
+Aesfast.elf 0x0032:                                RCALL b6 SP=0x45e 0x1a SP=0x45d 0x0 
+Aesfast.elf 0x0032:                                CPU-waitstate
+Aesfast.elf 0x0032:                                CPU-waitstate
+Aesfast.elf 0x00b6:                                LDI R16, 0x01 
+Aesfast.elf 0x00b8:                                LDI R17, 0x1b 
+Aesfast.elf 0x00ba:                                LDI R31, 0x10 
+Aesfast.elf 0x00bc:                                RJMP f6 
+Aesfast.elf 0x00bc:                                CPU-waitstate
+Aesfast.elf 0x00f6:                                ST Y+, R0 
+Aesfast.elf 0x00f6:                                CPU-waitstate
+Aesfast.elf 0x00f8:                                ST Y+, R1 
+Aesfast.elf 0x00f8:                                CPU-waitstate
+Aesfast.elf 0x00fa:                                ST Y+, R2 
+Aesfast.elf 0x00fa:                                CPU-waitstate
+Aesfast.elf 0x00fc:                                ST Y+, R3 
+Aesfast.elf 0x00fc:                                CPU-waitstate
+Aesfast.elf 0x00fe:                                ST Y+, R4 
+Aesfast.elf 0x00fe:                                CPU-waitstate
+Aesfast.elf 0x0100:                                ST Y+, R5 
+Aesfast.elf 0x0100:                                CPU-waitstate
+Aesfast.elf 0x0102:                                ST Y+, R6 
+Aesfast.elf 0x0102:                                CPU-waitstate
+Aesfast.elf 0x0104:                                ST Y+, R7 
+Aesfast.elf 0x0104:                                CPU-waitstate
+Aesfast.elf 0x0106:                                ST Y+, R8 
+Aesfast.elf 0x0106:                                CPU-waitstate
+Aesfast.elf 0x0108:                                ST Y+, R9 
+Aesfast.elf 0x0108:                                CPU-waitstate
+Aesfast.elf 0x010a:                                ST Y+, R10 
+Aesfast.elf 0x010a:                                CPU-waitstate
+Aesfast.elf 0x010c:                                ST Y+, R11 
+Aesfast.elf 0x010c:                                CPU-waitstate
+Aesfast.elf 0x010e:                                ST Y+, R12 
+Aesfast.elf 0x010e:                                CPU-waitstate
+Aesfast.elf 0x0110:                                ST Y+, R13 
+Aesfast.elf 0x0110:                                CPU-waitstate
+Aesfast.elf 0x0112:                                ST Y+, R14 
+Aesfast.elf 0x0112:                                CPU-waitstate
+Aesfast.elf 0x0114:                                ST Y+, R15 
+Aesfast.elf 0x0114:                                CPU-waitstate
+Aesfast.elf 0x0116:                                CPI R16, 0x6c SREG=[--HS-N-C] 
+Aesfast.elf 0x0118:                                BRNE ->0xffa4                                
+Aesfast.elf 0x0118:                                CPU-waitstate
+Aesfast.elf 0x00be:                                MOV R30, R13 
+Aesfast.elf 0x00c0:                                LPM R18, Z FLASH[10cf,] 
+Aesfast.elf 0x00c0:                                CPU-waitstate
+Aesfast.elf 0x00c0:                                CPU-waitstate
+Aesfast.elf 0x00c2:                                EOR R0, R18 SREG=[--HS-N-C] 
+Aesfast.elf 0x00c4:                                EOR R0, R16 SREG=[--HS-N-C] 
+Aesfast.elf 0x00c6:                                MOV R30, R14 
+Aesfast.elf 0x00c8:                                LPM R18, Z FLASH[104f,] 
+Aesfast.elf 0x00c8:                                CPU-waitstate
+Aesfast.elf 0x00c8:                                CPU-waitstate
+Aesfast.elf 0x00ca:                                EOR R1, R18 SREG=[--HS-N-C] 
+Aesfast.elf 0x00cc:                                MOV R30, R15 
+Aesfast.elf 0x00ce:                                LPM R18, Z FLASH[103c,] 
+Aesfast.elf 0x00ce:                                CPU-waitstate
+Aesfast.elf 0x00ce:                                CPU-waitstate
+Aesfast.elf 0x00d0:                                EOR R2, R18 SREG=[--HS-N-C] 
+Aesfast.elf 0x00d2:                                MOV R30, R12 
+Aesfast.elf 0x00d4:                                LPM R18, Z FLASH[1009,] 
+Aesfast.elf 0x00d4:                                CPU-waitstate
+Aesfast.elf 0x00d4:                                CPU-waitstate
+Aesfast.elf 0x00d6:                                EOR R3, R18 SREG=[--H----C] 
+Aesfast.elf 0x00d8:                                EOR R4, R0 SREG=[--HS-N-C] 
+Aesfast.elf 0x00da:                                EOR R5, R1 SREG=[--H----C] 
+Aesfast.elf 0x00dc:                                EOR R6, R2 SREG=[--H----C] 
+Aesfast.elf 0x00de:                                EOR R7, R3 SREG=[--HS-N-C] 
+Aesfast.elf 0x00e0:                                EOR R8, R4 SREG=[--H----C] 
+Aesfast.elf 0x00e2:                                EOR R9, R5 SREG=[--HS-N-C] 
+Aesfast.elf 0x00e4:                                EOR R10, R6 SREG=[--H----C] 
+Aesfast.elf 0x00e6:                                EOR R11, R7 SREG=[--H----C] 
+Aesfast.elf 0x00e8:                                EOR R12, R8 SREG=[--H----C] 
+Aesfast.elf 0x00ea:                                EOR R13, R9 SREG=[--H----C] 
+Aesfast.elf 0x00ec:                                EOR R14, R10 SREG=[--H----C] 
+Aesfast.elf 0x00ee:                                EOR R15, R11 SREG=[--H----C] 
+Aesfast.elf 0x00f0:                                ADD R16, R16 SREG=[--------] 
+Aesfast.elf 0x00f2:                                BRCC ->0x0002    
+Aesfast.elf 0x00f2:                                CPU-waitstate
+Aesfast.elf 0x00f6:                                ST Y+, R0 
+Aesfast.elf 0x00f6:                                CPU-waitstate
+Aesfast.elf 0x00f8:                                ST Y+, R1 
+Aesfast.elf 0x00f8:                                CPU-waitstate
+Aesfast.elf 0x00fa:                                ST Y+, R2 
+Aesfast.elf 0x00fa:                                CPU-waitstate
+Aesfast.elf 0x00fc:                                ST Y+, R3 
+Aesfast.elf 0x00fc:                                CPU-waitstate
+Aesfast.elf 0x00fe:                                ST Y+, R4 
+Aesfast.elf 0x00fe:                                CPU-waitstate
+Aesfast.elf 0x0100:                                ST Y+, R5 
+Aesfast.elf 0x0100:                                CPU-waitstate
+Aesfast.elf 0x0102:                                ST Y+, R6 
+Aesfast.elf 0x0102:                                CPU-waitstate
+Aesfast.elf 0x0104:                                ST Y+, R7 
+Aesfast.elf 0x0104:                                CPU-waitstate
+Aesfast.elf 0x0106:                                ST Y+, R8 
+Aesfast.elf 0x0106:                                CPU-waitstate
+Aesfast.elf 0x0108:                                ST Y+, R9 
+Aesfast.elf 0x0108:                                CPU-waitstate
+Aesfast.elf 0x010a:                                ST Y+, R10 
+Aesfast.elf 0x010a:                                CPU-waitstate
+Aesfast.elf 0x010c:                                ST Y+, R11 
+Aesfast.elf 0x010c:                                CPU-waitstate
+Aesfast.elf 0x010e:                                ST Y+, R12 
+Aesfast.elf 0x010e:                                CPU-waitstate
+Aesfast.elf 0x0110:                                ST Y+, R13 
+Aesfast.elf 0x0110:                                CPU-waitstate
+Aesfast.elf 0x0112:                                ST Y+, R14 
+Aesfast.elf 0x0112:                                CPU-waitstate
+Aesfast.elf 0x0114:                                ST Y+, R15 
+Aesfast.elf 0x0114:                                CPU-waitstate
+Aesfast.elf 0x0068:                                LPM R0, Z+ FLASH[96,] 
+Aesfast.elf 0x0068:                                CPU-waitstate
+Aesfast.elf 0x0068:                                CPU-waitstate
+Aesfast.elf 0x006a:                                LPM R1, Z+ FLASH[97,] 
+Aesfast.elf 0x006a:                                CPU-waitstate
+Aesfast.elf 0x006a:                                CPU-waitstate
+Aesfast.elf 0x006c:                                LPM R2, Z+ FLASH[98,] 
+Aesfast.elf 0x006c:                                CPU-waitstate
+Aesfast.elf 0x006c:                                CPU-waitstate
+Aesfast.elf 0x006e:                                LPM R3, Z+ FLASH[99,] 
+Aesfast.elf 0x006e:                                CPU-waitstate
+Aesfast.elf 0x006e:                                CPU-waitstate
+Aesfast.elf 0x0070:                                LPM R4, Z+ FLASH[9a,] 
+Aesfast.elf 0x0070:                                CPU-waitstate
+Aesfast.elf 0x0070:                                CPU-waitstate
+Aesfast.elf 0x0072:                                LPM R5, Z+ FLASH[9b,] 
+Aesfast.elf 0x0072:                                CPU-waitstate
+Aesfast.elf 0x0072:                                CPU-waitstate
+Aesfast.elf 0x0074:                                LPM R6, Z+ FLASH[9c,] 
+Aesfast.elf 0x0074:                                CPU-waitstate
+Aesfast.elf 0x0074:                                CPU-waitstate
+Aesfast.elf 0x0076:                                LPM R7, Z+ FLASH[9d,] 
+Aesfast.elf 0x0076:                                CPU-waitstate
+Aesfast.elf 0x0076:                                CPU-waitstate
+Aesfast.elf 0x0078:                                LPM R8, Z+ FLASH[9e,] 
+Aesfast.elf 0x0078:                                CPU-waitstate
+Aesfast.elf 0x0078:                                CPU-waitstate
+Aesfast.elf 0x007a:                                LPM R9, Z+ FLASH[9f,] 
+Aesfast.elf 0x007a:                                CPU-waitstate
+Aesfast.elf 0x007a:                                CPU-waitstate
+Aesfast.elf 0x007c:                                LPM R10, Z+ FLASH[a0,] 
+Aesfast.elf 0x007c:                                CPU-waitstate
+Aesfast.elf 0x007c:                                CPU-waitstate
+Aesfast.elf 0x007e:                                LPM R11, Z+ FLASH[a1,] 
+Aesfast.elf 0x007e:                                CPU-waitstate
+Aesfast.elf 0x007e:                                CPU-waitstate
+Aesfast.elf 0x0080:                                LPM R12, Z+ FLASH[a2,] 
+Aesfast.elf 0x0080:                                CPU-waitstate
+Aesfast.elf 0x0080:                                CPU-waitstate
+Aesfast.elf 0x0082:                                LPM R13, Z+ FLASH[a3,] 
+Aesfast.elf 0x0082:                                CPU-waitstate
+Aesfast.elf 0x0082:                                CPU-waitstate
+Aesfast.elf 0x0084:                                LPM R14, Z+ FLASH[a4,] 
+Aesfast.elf 0x0084:                                CPU-waitstate
+Aesfast.elf 0x0084:                                CPU-waitstate
+Aesfast.elf 0x0086:                                LPM R15, Z+ FLASH[a5,] 
+Aesfast.elf 0x0086:                                CPU-waitstate
+Aesfast.elf 0x0086:                                CPU-waitstate
+Aesfast.elf 0x0088:                                LDI R29, 0x00 
+Aesfast.elf 0x008a:                                LDI R28, 0x60 
+Aesfast.elf 0x008c:                                RCALL 1aa SP=0x45e 0x47 SP=0x45d 0x0 
+Aesfast.elf 0x008c:                                CPU-waitstate
+Aesfast.elf 0x008c:                                CPU-waitstate
+Aesfast.elf 0x01aa:                                RCALL 352 SP=0x45c 0xd6 SP=0x45b 0x0 
+Aesfast.elf 0x01aa:                                CPU-waitstate
+Aesfast.elf 0x01aa:                                CPU-waitstate
+Aesfast.elf 0x0352:                                LD R16, Y+ 
+Aesfast.elf 0x0352:                                CPU-waitstate
+Aesfast.elf 0x0354:                                EOR R0, R16 SREG=[--------] 
+Aesfast.elf 0x0356:                                LD R16, Y+ 
+Aesfast.elf 0x0356:                                CPU-waitstate
+Aesfast.elf 0x0358:                                EOR R1, R16 SREG=[--------] 
+Aesfast.elf 0x035a:                                LD R16, Y+ 
+Aesfast.elf 0x035a:                                CPU-waitstate
+Aesfast.elf 0x035c:                                EOR R2, R16 SREG=[---S-N--] 
+Aesfast.elf 0x035e:                                LD R16, Y+ 
+Aesfast.elf 0x035e:                                CPU-waitstate
+Aesfast.elf 0x0360:                                EOR R3, R16 SREG=[---S-N--] 
+Aesfast.elf 0x0362:                                LD R16, Y+ 
+Aesfast.elf 0x0362:                                CPU-waitstate
+Aesfast.elf 0x0364:                                EOR R4, R16 SREG=[---S-N--] 
+Aesfast.elf 0x0366:                                LD R16, Y+ 
+Aesfast.elf 0x0366:                                CPU-waitstate
+Aesfast.elf 0x0368:                                EOR R5, R16 SREG=[---S-N--] 
+Aesfast.elf 0x036a:                                LD R16, Y+ 
+Aesfast.elf 0x036a:                                CPU-waitstate
+Aesfast.elf 0x036c:                                EOR R6, R16 SREG=[---S-N--] 
+Aesfast.elf 0x036e:                                LD R16, Y+ 
+Aesfast.elf 0x036e:                                CPU-waitstate
+Aesfast.elf 0x0370:                                EOR R7, R16 SREG=[--------] 
+Aesfast.elf 0x0372:                                LD R16, Y+ 
+Aesfast.elf 0x0372:                                CPU-waitstate
+Aesfast.elf 0x0374:                                EOR R8, R16 SREG=[---S-N--] 
+Aesfast.elf 0x0376:                                LD R16, Y+ 
+Aesfast.elf 0x0376:                                CPU-waitstate
+Aesfast.elf 0x0378:                                EOR R9, R16 SREG=[---S-N--] 
+Aesfast.elf 0x037a:                                LD R16, Y+ 
+Aesfast.elf 0x037a:                                CPU-waitstate
+Aesfast.elf 0x037c:                                EOR R10, R16 SREG=[---S-N--] 
+Aesfast.elf 0x037e:                                LD R16, Y+ 
+Aesfast.elf 0x037e:                                CPU-waitstate
+Aesfast.elf 0x0380:                                EOR R11, R16 SREG=[--------] 
+Aesfast.elf 0x0382:                                LD R16, Y+ 
+Aesfast.elf 0x0382:                                CPU-waitstate
+Aesfast.elf 0x0384:                                EOR R12, R16 SREG=[---S-N--] 
+Aesfast.elf 0x0386:                                LD R16, Y+ 
+Aesfast.elf 0x0386:                                CPU-waitstate
+Aesfast.elf 0x0388:                                EOR R13, R16 SREG=[---S-N--] 
+Aesfast.elf 0x038a:                                LD R16, Y+ 
+Aesfast.elf 0x038a:                                CPU-waitstate
+Aesfast.elf 0x038c:                                EOR R14, R16 SREG=[--------] 
+Aesfast.elf 0x038e:                                LD R16, Y+ 
+Aesfast.elf 0x038e:                                CPU-waitstate
+Aesfast.elf 0x0390:                                EOR R15, R16 SREG=[--------] 
+Aesfast.elf 0x0392:                                RET SP=0x45c 0x0 SP=0x45d 0xd6 
+Aesfast.elf 0x0392:                                CPU-waitstate
+Aesfast.elf 0x0392:                                CPU-waitstate
+Aesfast.elf 0x0392:                                CPU-waitstate
+Aesfast.elf 0x01ac:                                LDI R31, 0x10 
+Aesfast.elf 0x01ae:                                LDI R21, 0x08 
+Aesfast.elf 0x01b0:                                MOV R30, R0 
+Aesfast.elf 0x01b2:                                LPM R17, Z FLASH[1019,] 
+Aesfast.elf 0x01b2:                                CPU-waitstate
+Aesfast.elf 0x01b2:                                CPU-waitstate
+Aesfast.elf 0x01b4:                                MOV R18, R17 
+Aesfast.elf 0x01b6:                                MOV R19, R17 
+Aesfast.elf 0x01b8:                                LDI R31, 0x11 
+Aesfast.elf 0x01ba:                                LPM R16, Z FLASH[1119,] 
+Aesfast.elf 0x01ba:                                CPU-waitstate
+Aesfast.elf 0x01ba:                                CPU-waitstate
+Aesfast.elf 0x01bc:                                EOR R19, R16 SREG=[--------] 
+Aesfast.elf 0x01be:                                MOV R30, R5 
+Aesfast.elf 0x01c0:                                LPM R20, Z FLASH[11f4,] 
+Aesfast.elf 0x01c0:                                CPU-waitstate
+Aesfast.elf 0x01c0:                                CPU-waitstate
+Aesfast.elf 0x01c2:                                EOR R16, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01c4:                                EOR R17, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01c6:                                LDI R31, 0x10 
+Aesfast.elf 0x01c8:                                LPM R20, Z FLASH[10f4,] 
+Aesfast.elf 0x01c8:                                CPU-waitstate
+Aesfast.elf 0x01c8:                                CPU-waitstate
+Aesfast.elf 0x01ca:                                EOR R16, R20 SREG=[--------] 
+Aesfast.elf 0x01cc:                                EOR R18, R20 SREG=[--------] 
+Aesfast.elf 0x01ce:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01d0:                                MOV R30, R10 
+Aesfast.elf 0x01d2:                                LPM R20, Z FLASH[108d,] 
+Aesfast.elf 0x01d2:                                CPU-waitstate
+Aesfast.elf 0x01d2:                                CPU-waitstate
+Aesfast.elf 0x01d4:                                EOR R16, R20 SREG=[--------] 
+Aesfast.elf 0x01d6:                                EOR R17, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01d8:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01da:                                LDI R31, 0x11 
+Aesfast.elf 0x01dc:                                LPM R20, Z FLASH[118d,] 
+Aesfast.elf 0x01dc:                                CPU-waitstate
+Aesfast.elf 0x01dc:                                CPU-waitstate
+Aesfast.elf 0x01de:                                EOR R17, R20 SREG=[--------] 
+Aesfast.elf 0x01e0:                                EOR R18, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01e2:                                MOV R30, R15 
+Aesfast.elf 0x01e4:                                LPM R20, Z FLASH[1108,] 
+Aesfast.elf 0x01e4:                                CPU-waitstate
+Aesfast.elf 0x01e4:                                CPU-waitstate
+Aesfast.elf 0x01e6:                                EOR R18, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01e8:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01ea:                                LDI R31, 0x10 
+Aesfast.elf 0x01ec:                                LPM R20, Z FLASH[1008,] 
+Aesfast.elf 0x01ec:                                CPU-waitstate
+Aesfast.elf 0x01ec:                                CPU-waitstate
+Aesfast.elf 0x01ee:                                EOR R16, R20 SREG=[--------] 
+Aesfast.elf 0x01f0:                                EOR R17, R20 SREG=[--------] 
+Aesfast.elf 0x01f2:                                EOR R18, R20 SREG=[---S-N--] 
+Aesfast.elf 0x01f4:                                LDD R0, Y+0 
+Aesfast.elf 0x01f4:                                CPU-waitstate
+Aesfast.elf 0x01f6:                                EOR R0, R16 SREG=[---S-N--] 
+Aesfast.elf 0x01f8:                                MOV R30, R3 
+Aesfast.elf 0x01fa:                                LDD R3, Y+3 
+Aesfast.elf 0x01fa:                                CPU-waitstate
+Aesfast.elf 0x01fc:                                EOR R3, R19 SREG=[---S-N--] 
+Aesfast.elf 0x01fe:                                LPM R16, Z FLASH[10be,] 
+Aesfast.elf 0x01fe:                                CPU-waitstate
+Aesfast.elf 0x01fe:                                CPU-waitstate
+Aesfast.elf 0x0200:                                MOV R19, R16 
+Aesfast.elf 0x0202:                                MOV R10, R16 
+Aesfast.elf 0x0204:                                LDI R31, 0x11 
+Aesfast.elf 0x0206:                                LPM R15, Z FLASH[11be,] 
+Aesfast.elf 0x0206:                                CPU-waitstate
+Aesfast.elf 0x0206:                                CPU-waitstate
+Aesfast.elf 0x0208:                                EOR R10, R15 SREG=[---S-N--] 
+Aesfast.elf 0x020a:                                MOV R30, R4 
+Aesfast.elf 0x020c:                                LPM R20, Z FLASH[11a0,] 
+Aesfast.elf 0x020c:                                CPU-waitstate
+Aesfast.elf 0x020c:                                CPU-waitstate
+Aesfast.elf 0x020e:                                EOR R16, R20 SREG=[--------] 
+Aesfast.elf 0x0210:                                EOR R15, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0212:                                LDI R31, 0x10 
+Aesfast.elf 0x0214:                                LPM R20, Z FLASH[10a0,] 
+Aesfast.elf 0x0214:                                CPU-waitstate
+Aesfast.elf 0x0214:                                CPU-waitstate
+Aesfast.elf 0x0216:                                EOR R19, R20 SREG=[--------] 
+Aesfast.elf 0x0218:                                EOR R10, R20 SREG=[--------] 
+Aesfast.elf 0x021a:                                EOR R15, R20 SREG=[--------] 
+Aesfast.elf 0x021c:                                MOV R30, R9 
+Aesfast.elf 0x021e:                                LPM R20, Z FLASH[10c6,] 
+Aesfast.elf 0x021e:                                CPU-waitstate
+Aesfast.elf 0x021e:                                CPU-waitstate
+Aesfast.elf 0x0220:                                EOR R16, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0222:                                EOR R10, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0224:                                EOR R15, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0226:                                LDI R31, 0x11 
+Aesfast.elf 0x0228:                                LPM R20, Z FLASH[11c6,] 
+Aesfast.elf 0x0228:                                CPU-waitstate
+Aesfast.elf 0x0228:                                CPU-waitstate
+Aesfast.elf 0x022a:                                EOR R16, R20 SREG=[---S-N--] 
+Aesfast.elf 0x022c:                                EOR R19, R20 SREG=[--------] 
+Aesfast.elf 0x022e:                                MOV R30, R14 
+Aesfast.elf 0x0230:                                LPM R20, Z FLASH[1148,] 
+Aesfast.elf 0x0230:                                CPU-waitstate
+Aesfast.elf 0x0230:                                CPU-waitstate
+Aesfast.elf 0x0232:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0234:                                EOR R10, R20 SREG=[--------] 
+Aesfast.elf 0x0236:                                LDI R31, 0x10 
+Aesfast.elf 0x0238:                                LPM R20, Z FLASH[1048,] 
+Aesfast.elf 0x0238:                                CPU-waitstate
+Aesfast.elf 0x0238:                                CPU-waitstate
+Aesfast.elf 0x023a:                                EOR R16, R20 SREG=[---S-N--] 
+Aesfast.elf 0x023c:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x023e:                                EOR R15, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0240:                                LDD R4, Y+4 
+Aesfast.elf 0x0240:                                CPU-waitstate
+Aesfast.elf 0x0242:                                EOR R4, R16 SREG=[--------] 
+Aesfast.elf 0x0244:                                LDD R5, Y+5 
+Aesfast.elf 0x0244:                                CPU-waitstate
+Aesfast.elf 0x0246:                                EOR R5, R19 SREG=[---S-N--] 
+Aesfast.elf 0x0248:                                MOV R30, R2 
+Aesfast.elf 0x024a:                                LDD R2, Y+2 
+Aesfast.elf 0x024a:                                CPU-waitstate
+Aesfast.elf 0x024c:                                EOR R2, R18 SREG=[--------] 
+Aesfast.elf 0x024e:                                LPM R14, Z FLASH[10e3,] 
+Aesfast.elf 0x024e:                                CPU-waitstate
+Aesfast.elf 0x024e:                                CPU-waitstate
+Aesfast.elf 0x0250:                                MOV R18, R14 
+Aesfast.elf 0x0252:                                MOV R16, R14 
+Aesfast.elf 0x0254:                                LDI R31, 0x11 
+Aesfast.elf 0x0256:                                LPM R19, Z FLASH[11e3,] 
+Aesfast.elf 0x0256:                                CPU-waitstate
+Aesfast.elf 0x0256:                                CPU-waitstate
+Aesfast.elf 0x0258:                                EOR R18, R19 SREG=[--------] 
+Aesfast.elf 0x025a:                                MOV R30, R7 
+Aesfast.elf 0x025c:                                LDD R7, Y+7 
+Aesfast.elf 0x025c:                                CPU-waitstate
+Aesfast.elf 0x025e:                                EOR R7, R15 SREG=[--------] 
+Aesfast.elf 0x0260:                                LPM R20, Z FLASH[112b,] 
+Aesfast.elf 0x0260:                                CPU-waitstate
+Aesfast.elf 0x0260:                                CPU-waitstate
+Aesfast.elf 0x0262:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0264:                                EOR R16, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0266:                                LDI R31, 0x10 
+Aesfast.elf 0x0268:                                LPM R20, Z FLASH[102b,] 
+Aesfast.elf 0x0268:                                CPU-waitstate
+Aesfast.elf 0x0268:                                CPU-waitstate
+Aesfast.elf 0x026a:                                EOR R14, R20 SREG=[---S-N--] 
+Aesfast.elf 0x026c:                                EOR R18, R20 SREG=[---S-N--] 
+Aesfast.elf 0x026e:                                EOR R19, R20 SREG=[--------] 
+Aesfast.elf 0x0270:                                MOV R30, R8 
+Aesfast.elf 0x0272:                                LPM R20, Z FLASH[109a,] 
+Aesfast.elf 0x0272:                                CPU-waitstate
+Aesfast.elf 0x0272:                                CPU-waitstate
+Aesfast.elf 0x0274:                                EOR R18, R20 SREG=[--------] 
+Aesfast.elf 0x0276:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0278:                                EOR R16, R20 SREG=[--------] 
+Aesfast.elf 0x027a:                                LDI R31, 0x11 
+Aesfast.elf 0x027c:                                LPM R20, Z FLASH[119a,] 
+Aesfast.elf 0x027c:                                CPU-waitstate
+Aesfast.elf 0x027c:                                CPU-waitstate
+Aesfast.elf 0x027e:                                EOR R14, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0280:                                EOR R16, R20 SREG=[--------] 
+Aesfast.elf 0x0282:                                MOV R30, R13 
+Aesfast.elf 0x0284:                                LPM R20, Z FLASH[11f8,] 
+Aesfast.elf 0x0284:                                CPU-waitstate
+Aesfast.elf 0x0284:                                CPU-waitstate
+Aesfast.elf 0x0286:                                EOR R14, R20 SREG=[--------] 
+Aesfast.elf 0x0288:                                EOR R18, R20 SREG=[---S-N--] 
+Aesfast.elf 0x028a:                                LDI R31, 0x10 
+Aesfast.elf 0x028c:                                LPM R20, Z FLASH[10f8,] 
+Aesfast.elf 0x028c:                                CPU-waitstate
+Aesfast.elf 0x028c:                                CPU-waitstate
+Aesfast.elf 0x028e:                                EOR R14, R20 SREG=[--------] 
+Aesfast.elf 0x0290:                                EOR R19, R20 SREG=[---S-N--] 
+Aesfast.elf 0x0292:                                EOR R16, R20 SREG=[--------] 
+Aesfast.elf 0x0294:                                LDD R8, Y+8 
+Aesfast.elf 0x0294:                                CPU-waitstate
+Aesfast.elf 0x0296:                                EOR R8, R14 SREG=[--------] 
+Aesfast.elf 0x0298:                                LDD R9, Y+9 
+Aesfast.elf 0x0298:                                CPU-waitstate
+Aesfast.elf 0x029a:                                EOR R9, R18 SREG=[--------] 
+Aesfast.elf 0x029c:                                MOV R30, R6 
+Aesfast.elf 0x029e:                                LDD R6, Y+6 
+Aesfast.elf 0x029e:                                CPU-waitstate
+Aesfast.elf 0x02a0:                                EOR R6, R10 SREG=[--------] 
+Aesfast.elf 0x02a2:                                LDD R10, Y+10 
+Aesfast.elf 0x02a2:                                CPU-waitstate
+Aesfast.elf 0x02a4:                                EOR R10, R19 SREG=[---S-N--] 
+Aesfast.elf 0x02a6:                                LPM R13, Z FLASH[10e2,] 
+Aesfast.elf 0x02a6:                                CPU-waitstate
+Aesfast.elf 0x02a6:                                CPU-waitstate
+Aesfast.elf 0x02a8:                                MOV R14, R13 
+Aesfast.elf 0x02aa:                                MOV R19, R13 
+Aesfast.elf 0x02ac:                                LDI R31, 0x11 
+Aesfast.elf 0x02ae:                                LPM R18, Z FLASH[11e2,] 
+Aesfast.elf 0x02ae:                                CPU-waitstate
+Aesfast.elf 0x02ae:                                CPU-waitstate
+Aesfast.elf 0x02b0:                                EOR R14, R18 SREG=[---S-N--] 
+Aesfast.elf 0x02b2:                                MOV R30, R11 
+Aesfast.elf 0x02b4:                                LDD R11, Y+11 
+Aesfast.elf 0x02b4:                                CPU-waitstate
+Aesfast.elf 0x02b6:                                EOR R11, R16 SREG=[--------] 
+Aesfast.elf 0x02b8:                                LPM R20, Z FLASH[112a,] 
+Aesfast.elf 0x02b8:                                CPU-waitstate
+Aesfast.elf 0x02b8:                                CPU-waitstate
+Aesfast.elf 0x02ba:                                EOR R18, R20 SREG=[---S-N--] 
+Aesfast.elf 0x02bc:                                EOR R19, R20 SREG=[--------] 
+Aesfast.elf 0x02be:                                LDI R31, 0x10 
+Aesfast.elf 0x02c0:                                LPM R20, Z FLASH[102a,] 
+Aesfast.elf 0x02c0:                                CPU-waitstate
+Aesfast.elf 0x02c0:                                CPU-waitstate
+Aesfast.elf 0x02c2:                                EOR R13, R20 SREG=[--------] 
+Aesfast.elf 0x02c4:                                EOR R14, R20 SREG=[--------] 
+Aesfast.elf 0x02c6:                                EOR R18, R20 SREG=[--------] 
+Aesfast.elf 0x02c8:                                MOV R30, R12 
+Aesfast.elf 0x02ca:                                LPM R20, Z FLASH[10e9,] 
+Aesfast.elf 0x02ca:                                CPU-waitstate
+Aesfast.elf 0x02ca:                                CPU-waitstate
+Aesfast.elf 0x02cc:                                EOR R14, R20 SREG=[--------] 
+Aesfast.elf 0x02ce:                                EOR R18, R20 SREG=[--------] 
+Aesfast.elf 0x02d0:                                EOR R19, R20 SREG=[--------] 
+Aesfast.elf 0x02d2:                                LDI R31, 0x11 
+Aesfast.elf 0x02d4:                                LPM R20, Z FLASH[11e9,] 
+Aesfast.elf 0x02d4:                                CPU-waitstate
+Aesfast.elf 0x02d4:                                CPU-waitstate
+Aesfast.elf 0x02d6:                                EOR R13, R20 SREG=[--------] 
+Aesfast.elf 0x02d8:                                EOR R19, R20 SREG=[--------] 
+Aesfast.elf 0x02da:                                MOV R30, R1 
+Aesfast.elf 0x02dc:                                LPM R20, Z FLASH[113d,] 
+Aesfast.elf 0x02dc:                                CPU-waitstate
+Aesfast.elf 0x02dc:                                CPU-waitstate
+Aesfast.elf 0x02de:                                EOR R13, R20 SREG=[--------] 
+Aesfast.elf 0x02e0:                                EOR R14, R20 SREG=[--------] 
+Aesfast.elf 0x02e2:                                LDI R31, 0x10 
+Aesfast.elf 0x02e4:                                LPM R20, Z FLASH[103d,] 
+Aesfast.elf 0x02e4:                                CPU-waitstate
+Aesfast.elf 0x02e4:                                CPU-waitstate
+Aesfast.elf 0x02e6:                                EOR R13, R20 SREG=[--------] 
+Aesfast.elf 0x02e8:                                EOR R18, R20 SREG=[--------] 
+Aesfast.elf 0x02ea:                                EOR R19, R20 SREG=[--------] 
+Aesfast.elf 0x02ec:                                LDD R1, Y+1 
+Aesfast.elf 0x02ec:                                CPU-waitstate
+Aesfast.elf 0x02ee:                                EOR R1, R17 SREG=[---S-N--] 
+Aesfast.elf 0x02f0:                                LDD R12, Y+12 
+Aesfast.elf 0x02f0:                                CPU-waitstate
+Aesfast.elf 0x02f2:                                EOR R12, R13 SREG=[--------] 
+Aesfast.elf 0x02f4:                                LDD R13, Y+13 
+Aesfast.elf 0x02f4:                                CPU-waitstate
+Aesfast.elf 0x02f6:                                EOR R13, R14 SREG=[--------] 
+Aesfast.elf 0x02f8:                                LDD R14, Y+14 
+Aesfast.elf 0x02f8:                                CPU-waitstate
+Aesfast.elf 0x02fa:                                EOR R14, R18 SREG=[--------] 
+Aesfast.elf 0x02fc:                                LDD R15, Y+15 
+Aesfast.elf 0x02fc:                                CPU-waitstate
+Aesfast.elf 0x02fe:                                EOR R15, R19 SREG=[--------] 
+Aesfast.elf 0x0300:                                ADIW R28, 16 SREG=[--------] 
+Aesfast.elf 0x0300:                                CPU-waitstate

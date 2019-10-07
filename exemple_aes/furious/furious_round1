@@ -1,0 +1,501 @@
+furious.elf 0x0000:                                CLI SREG=[--------] 
+furious.elf 0x0002:                                LDI R31, 0x04 
+furious.elf 0x0004:                                OUT 0x3e, R31 SP=0x400 
+furious.elf 0x0006:                                LDI R31, 0x5f 
+furious.elf 0x0008:                                OUT 0x3d, R31 SP=0x45f 
+furious.elf 0x000a:                                LDI R31, 0x00 
+furious.elf 0x000c:                                LDI R30, 0x76 
+furious.elf 0x000e:                                LPM R0, Z+ FLASH[76,] 
+furious.elf 0x000e:                                CPU-waitstate
+furious.elf 0x000e:                                CPU-waitstate
+furious.elf 0x0010:                                LPM R1, Z+ FLASH[77,] 
+furious.elf 0x0010:                                CPU-waitstate
+furious.elf 0x0010:                                CPU-waitstate
+furious.elf 0x0012:                                LPM R2, Z+ FLASH[78,] 
+furious.elf 0x0012:                                CPU-waitstate
+furious.elf 0x0012:                                CPU-waitstate
+furious.elf 0x0014:                                LPM R3, Z+ FLASH[79,] 
+furious.elf 0x0014:                                CPU-waitstate
+furious.elf 0x0014:                                CPU-waitstate
+furious.elf 0x0016:                                LPM R4, Z+ FLASH[7a,] 
+furious.elf 0x0016:                                CPU-waitstate
+furious.elf 0x0016:                                CPU-waitstate
+furious.elf 0x0018:                                LPM R5, Z+ FLASH[7b,] 
+furious.elf 0x0018:                                CPU-waitstate
+furious.elf 0x0018:                                CPU-waitstate
+furious.elf 0x001a:                                LPM R6, Z+ FLASH[7c,] 
+furious.elf 0x001a:                                CPU-waitstate
+furious.elf 0x001a:                                CPU-waitstate
+furious.elf 0x001c:                                LPM R7, Z+ FLASH[7d,] 
+furious.elf 0x001c:                                CPU-waitstate
+furious.elf 0x001c:                                CPU-waitstate
+furious.elf 0x001e:                                LPM R8, Z+ FLASH[7e,] 
+furious.elf 0x001e:                                CPU-waitstate
+furious.elf 0x001e:                                CPU-waitstate
+furious.elf 0x0020:                                LPM R9, Z+ FLASH[7f,] 
+furious.elf 0x0020:                                CPU-waitstate
+furious.elf 0x0020:                                CPU-waitstate
+furious.elf 0x0022:                                LPM R10, Z+ FLASH[80,] 
+furious.elf 0x0022:                                CPU-waitstate
+furious.elf 0x0022:                                CPU-waitstate
+furious.elf 0x0024:                                LPM R11, Z+ FLASH[81,] 
+furious.elf 0x0024:                                CPU-waitstate
+furious.elf 0x0024:                                CPU-waitstate
+furious.elf 0x0026:                                LPM R12, Z+ FLASH[82,] 
+furious.elf 0x0026:                                CPU-waitstate
+furious.elf 0x0026:                                CPU-waitstate
+furious.elf 0x0028:                                LPM R13, Z+ FLASH[83,] 
+furious.elf 0x0028:                                CPU-waitstate
+furious.elf 0x0028:                                CPU-waitstate
+furious.elf 0x002a:                                LPM R14, Z+ FLASH[84,] 
+furious.elf 0x002a:                                CPU-waitstate
+furious.elf 0x002a:                                CPU-waitstate
+furious.elf 0x002c:                                LPM R15, Z+ FLASH[85,] 
+furious.elf 0x002c:                                CPU-waitstate
+furious.elf 0x002c:                                CPU-waitstate
+furious.elf 0x002e:                                LDI R29, 0x00 
+furious.elf 0x0030:                                LDI R28, 0x60 
+furious.elf 0x0032:                                RCALL 86 SP=0x45e 0x1a SP=0x45d 0x0 
+furious.elf 0x0032:                                CPU-waitstate
+furious.elf 0x0032:                                CPU-waitstate
+furious.elf 0x0086:                                LDI R16, 0x01 
+furious.elf 0x0088:                                LDI R17, 0x1b 
+furious.elf 0x008a:                                LDI R31, 0x10 
+furious.elf 0x008c:                                RJMP c6 
+furious.elf 0x008c:                                CPU-waitstate
+furious.elf 0x00c6:                                ST Y+, R0 
+furious.elf 0x00c6:                                CPU-waitstate
+furious.elf 0x00c8:                                ST Y+, R1 
+furious.elf 0x00c8:                                CPU-waitstate
+furious.elf 0x00ca:                                ST Y+, R2 
+furious.elf 0x00ca:                                CPU-waitstate
+furious.elf 0x00cc:                                ST Y+, R3 
+furious.elf 0x00cc:                                CPU-waitstate
+furious.elf 0x00ce:                                ST Y+, R4 
+furious.elf 0x00ce:                                CPU-waitstate
+furious.elf 0x00d0:                                ST Y+, R5 
+furious.elf 0x00d0:                                CPU-waitstate
+furious.elf 0x00d2:                                ST Y+, R6 
+furious.elf 0x00d2:                                CPU-waitstate
+furious.elf 0x00d4:                                ST Y+, R7 
+furious.elf 0x00d4:                                CPU-waitstate
+furious.elf 0x00d6:                                ST Y+, R8 
+furious.elf 0x00d6:                                CPU-waitstate
+furious.elf 0x00d8:                                ST Y+, R9 
+furious.elf 0x00d8:                                CPU-waitstate
+furious.elf 0x00da:                                ST Y+, R10 
+furious.elf 0x00da:                                CPU-waitstate
+furious.elf 0x00dc:                                ST Y+, R11 
+furious.elf 0x00dc:                                CPU-waitstate
+furious.elf 0x00de:                                ST Y+, R12 
+furious.elf 0x00de:                                CPU-waitstate
+furious.elf 0x00e0:                                ST Y+, R13 
+furious.elf 0x00e0:                                CPU-waitstate
+furious.elf 0x00e2:                                ST Y+, R14 
+furious.elf 0x00e2:                                CPU-waitstate
+furious.elf 0x00e4:                                ST Y+, R15 
+furious.elf 0x00e4:                                CPU-waitstate
+furious.elf 0x00e6:                                CPI R16, 0x6c SREG=[--HS-N-C] 
+furious.elf 0x00e8:                                BRNE ->0xffa4                                
+furious.elf 0x00e8:                                CPU-waitstate
+furious.elf 0x008e:                                MOV R30, R13 
+furious.elf 0x0090:                                LPM R18, Z FLASH[10cf,] 
+furious.elf 0x0090:                                CPU-waitstate
+furious.elf 0x0090:                                CPU-waitstate
+furious.elf 0x0092:                                EOR R0, R18 SREG=[--HS-N-C] 
+furious.elf 0x0094:                                EOR R0, R16 SREG=[--HS-N-C] 
+furious.elf 0x0096:                                MOV R30, R14 
+furious.elf 0x0098:                                LPM R18, Z FLASH[104f,] 
+furious.elf 0x0098:                                CPU-waitstate
+furious.elf 0x0098:                                CPU-waitstate
+furious.elf 0x009a:                                EOR R1, R18 SREG=[--HS-N-C] 
+furious.elf 0x009c:                                MOV R30, R15 
+furious.elf 0x009e:                                LPM R18, Z FLASH[103c,] 
+furious.elf 0x009e:                                CPU-waitstate
+furious.elf 0x009e:                                CPU-waitstate
+furious.elf 0x00a0:                                EOR R2, R18 SREG=[--HS-N-C] 
+furious.elf 0x00a2:                                MOV R30, R12 
+furious.elf 0x00a4:                                LPM R18, Z FLASH[1009,] 
+furious.elf 0x00a4:                                CPU-waitstate
+furious.elf 0x00a4:                                CPU-waitstate
+furious.elf 0x00a6:                                EOR R3, R18 SREG=[--H----C] 
+furious.elf 0x00a8:                                EOR R4, R0 SREG=[--HS-N-C] 
+furious.elf 0x00aa:                                EOR R5, R1 SREG=[--H----C] 
+furious.elf 0x00ac:                                EOR R6, R2 SREG=[--H----C] 
+furious.elf 0x00ae:                                EOR R7, R3 SREG=[--HS-N-C] 
+furious.elf 0x00b0:                                EOR R8, R4 SREG=[--H----C] 
+furious.elf 0x00b2:                                EOR R9, R5 SREG=[--HS-N-C] 
+furious.elf 0x00b4:                                EOR R10, R6 SREG=[--H----C] 
+furious.elf 0x00b6:                                EOR R11, R7 SREG=[--H----C] 
+furious.elf 0x00b8:                                EOR R12, R8 SREG=[--H----C] 
+furious.elf 0x00ba:                                EOR R13, R9 SREG=[--H----C] 
+furious.elf 0x00bc:                                EOR R14, R10 SREG=[--H----C] 
+furious.elf 0x00be:                                EOR R15, R11 SREG=[--H----C] 
+furious.elf 0x00c0:                                ADD R16, R16 SREG=[--------] 
+furious.elf 0x00c2:                                BRCC ->0x0002                                
+furious.elf 0x00c2:                                CPU-waitstate
+furious.elf 0x00c6:                                ST Y+, R0 
+furious.elf 0x00c6:                                CPU-waitstate
+furious.elf 0x00c8:                                ST Y+, R1 
+furious.elf 0x00c8:                                CPU-waitstate
+furious.elf 0x00ca:                                ST Y+, R2 
+furious.elf 0x00ca:                                CPU-waitstate
+furious.elf 0x00cc:                                ST Y+, R3 
+furious.elf 0x00cc:                                CPU-waitstate
+furious.elf 0x00ce:                                ST Y+, R4 
+furious.elf 0x00ce:                                CPU-waitstate
+furious.elf 0x00d0:                                ST Y+, R5 
+furious.elf 0x00d0:                                CPU-waitstate
+furious.elf 0x00d2:                                ST Y+, R6 
+furious.elf 0x00d2:                                CPU-waitstate
+furious.elf 0x00d4:                                ST Y+, R7 
+furious.elf 0x00d4:                                CPU-waitstate
+furious.elf 0x00d6:                                ST Y+, R8 
+furious.elf 0x00d6:                                CPU-waitstate
+furious.elf 0x00d8:                                ST Y+, R9 
+furious.elf 0x00d8:                                CPU-waitstate
+furious.elf 0x00da:                                ST Y+, R10 
+furious.elf 0x00da:                                CPU-waitstate
+furious.elf 0x00dc:                                ST Y+, R11 
+furious.elf 0x00dc:                                CPU-waitstate
+furious.elf 0x00de:                                ST Y+, R12 
+furious.elf 0x00de:                                CPU-waitstate
+furious.elf 0x00e0:                                ST Y+, R13 
+furious.elf 0x00e0:                                CPU-waitstate
+furious.elf 0x00e2:                                ST Y+, R14 
+furious.elf 0x00e2:                                CPU-waitstate
+furious.elf 0x00e4:                                ST Y+, R15 
+furious.elf 0x0034:                                LDI R31, 0x00 
+furious.elf 0x0036:                                LDI R30, 0x66 
+furious.elf 0x0038:                                LPM R0, Z+ FLASH[66,] 
+furious.elf 0x0038:                                CPU-waitstate
+furious.elf 0x0038:                                CPU-waitstate
+furious.elf 0x003a:                                LPM R1, Z+ FLASH[67,] 
+furious.elf 0x003a:                                CPU-waitstate
+furious.elf 0x003a:                                CPU-waitstate
+furious.elf 0x003c:                                LPM R2, Z+ FLASH[68,] 
+furious.elf 0x003c:                                CPU-waitstate
+furious.elf 0x003c:                                CPU-waitstate
+furious.elf 0x003e:                                LPM R3, Z+ FLASH[69,] 
+furious.elf 0x003e:                                CPU-waitstate
+furious.elf 0x003e:                                CPU-waitstate
+furious.elf 0x0040:                                LPM R4, Z+ FLASH[6a,] 
+furious.elf 0x0040:                                CPU-waitstate
+furious.elf 0x0040:                                CPU-waitstate
+furious.elf 0x0042:                                LPM R5, Z+ FLASH[6b,] 
+furious.elf 0x0042:                                CPU-waitstate
+furious.elf 0x0042:                                CPU-waitstate
+furious.elf 0x0044:                                LPM R6, Z+ FLASH[6c,] 
+furious.elf 0x0044:                                CPU-waitstate
+furious.elf 0x0044:                                CPU-waitstate
+furious.elf 0x0046:                                LPM R7, Z+ FLASH[6d,] 
+furious.elf 0x0046:                                CPU-waitstate
+furious.elf 0x0046:                                CPU-waitstate
+furious.elf 0x0048:                                LPM R8, Z+ FLASH[6e,] 
+furious.elf 0x0048:                                CPU-waitstate
+furious.elf 0x0048:                                CPU-waitstate
+furious.elf 0x004a:                                LPM R9, Z+ FLASH[6f,] 
+furious.elf 0x004a:                                CPU-waitstate
+furious.elf 0x004a:                                CPU-waitstate
+furious.elf 0x004c:                                LPM R10, Z+ FLASH[70,] 
+furious.elf 0x004c:                                CPU-waitstate
+furious.elf 0x004c:                                CPU-waitstate
+furious.elf 0x004e:                                LPM R11, Z+ FLASH[71,] 
+furious.elf 0x004e:                                CPU-waitstate
+furious.elf 0x004e:                                CPU-waitstate
+furious.elf 0x0050:                                LPM R12, Z+ FLASH[72,] 
+furious.elf 0x0050:                                CPU-waitstate
+furious.elf 0x0050:                                CPU-waitstate
+furious.elf 0x0052:                                LPM R13, Z+ FLASH[73,] 
+furious.elf 0x0052:                                CPU-waitstate
+furious.elf 0x0052:                                CPU-waitstate
+furious.elf 0x0054:                                LPM R14, Z+ FLASH[74,] 
+furious.elf 0x0054:                                CPU-waitstate
+furious.elf 0x0054:                                CPU-waitstate
+furious.elf 0x0056:                                LPM R15, Z+ FLASH[75,] 
+furious.elf 0x0056:                                CPU-waitstate
+furious.elf 0x0056:                                CPU-waitstate
+furious.elf 0x0058:                                LDI R29, 0x00 
+furious.elf 0x005a:                                LDI R28, 0x60 
+furious.elf 0x005c:                                RCALL ec SP=0x45e 0x2f SP=0x45d 0x0 
+furious.elf 0x005c:                                CPU-waitstate
+furious.elf 0x005c:                                CPU-waitstate
+furious.elf 0x00ec:                                LDI R21, 0x0a 
+furious.elf 0x00ee:                                RCALL 142 SP=0x45c 0x78 SP=0x45b 0x0 
+furious.elf 0x00ee:                                CPU-waitstate
+furious.elf 0x00ee:                                CPU-waitstate
+furious.elf 0x0142:                                LD R16, Y+ 
+furious.elf 0x0142:                                CPU-waitstate
+furious.elf 0x0144:                                EOR R0, R16 SREG=[--------] 
+furious.elf 0x0146:                                LD R16, Y+ 
+furious.elf 0x0146:                                CPU-waitstate
+furious.elf 0x0148:                                EOR R1, R16 SREG=[--------] 
+furious.elf 0x014a:                                LD R16, Y+ 
+furious.elf 0x014a:                                CPU-waitstate
+furious.elf 0x014c:                                EOR R2, R16 SREG=[---S-N--] 
+furious.elf 0x014e:                                LD R16, Y+ 
+furious.elf 0x014e:                                CPU-waitstate
+furious.elf 0x0150:                                EOR R3, R16 SREG=[---S-N--] 
+furious.elf 0x0152:                                LD R16, Y+ 
+furious.elf 0x0152:                                CPU-waitstate
+furious.elf 0x0154:                                EOR R4, R16 SREG=[---S-N--] 
+furious.elf 0x0156:                                LD R16, Y+ 
+furious.elf 0x0156:                                CPU-waitstate
+furious.elf 0x0158:                                EOR R5, R16 SREG=[---S-N--] 
+furious.elf 0x015a:                                LD R16, Y+ 
+furious.elf 0x015a:                                CPU-waitstate
+furious.elf 0x015c:                                EOR R6, R16 SREG=[---S-N--] 
+furious.elf 0x015e:                                LD R16, Y+ 
+furious.elf 0x015e:                                CPU-waitstate
+furious.elf 0x0160:                                EOR R7, R16 SREG=[--------] 
+furious.elf 0x0162:                                LD R16, Y+ 
+furious.elf 0x0162:                                CPU-waitstate
+furious.elf 0x0164:                                EOR R8, R16 SREG=[---S-N--] 
+furious.elf 0x0166:                                LD R16, Y+ 
+furious.elf 0x0166:                                CPU-waitstate
+furious.elf 0x0168:                                EOR R9, R16 SREG=[---S-N--] 
+furious.elf 0x016a:                                LD R16, Y+ 
+furious.elf 0x016a:                                CPU-waitstate
+furious.elf 0x016c:                                EOR R10, R16 SREG=[---S-N--] 
+furious.elf 0x016e:                                LD R16, Y+ 
+furious.elf 0x016e:                                CPU-waitstate
+furious.elf 0x0170:                                EOR R11, R16 SREG=[--------] 
+furious.elf 0x0172:                                LD R16, Y+ 
+furious.elf 0x0172:                                CPU-waitstate
+furious.elf 0x0174:                                EOR R12, R16 SREG=[---S-N--] 
+furious.elf 0x0176:                                LD R16, Y+ 
+furious.elf 0x0176:                                CPU-waitstate
+furious.elf 0x0178:                                EOR R13, R16 SREG=[---S-N--] 
+furious.elf 0x017a:                                LD R16, Y+ 
+furious.elf 0x017a:                                CPU-waitstate
+furious.elf 0x017c:                                EOR R14, R16 SREG=[--------] 
+furious.elf 0x017e:                                LD R16, Y+ 
+furious.elf 0x017e:                                CPU-waitstate
+furious.elf 0x0180:                                EOR R15, R16 SREG=[--------] 
+furious.elf 0x0182:                                RET SP=0x45c 0x0 SP=0x45d 0x78 
+furious.elf 0x0182:                                CPU-waitstate
+furious.elf 0x0182:                                CPU-waitstate
+furious.elf 0x0182:                                CPU-waitstate
+furious.elf 0x00f0:                                LDI R31, 0x10 
+furious.elf 0x00f2:                                MOV R30, R0 
+furious.elf 0x00f4:                                LPM R0, Z FLASH[1019,] 
+furious.elf 0x00f4:                                CPU-waitstate
+furious.elf 0x00f4:                                CPU-waitstate
+furious.elf 0x00f6:                                MOV R30, R4 
+furious.elf 0x00f8:                                LPM R4, Z FLASH[10a0,] 
+furious.elf 0x00f8:                                CPU-waitstate
+furious.elf 0x00f8:                                CPU-waitstate
+furious.elf 0x00fa:                                MOV R30, R8 
+furious.elf 0x00fc:                                LPM R8, Z FLASH[109a,] 
+furious.elf 0x00fc:                                CPU-waitstate
+furious.elf 0x00fc:                                CPU-waitstate
+furious.elf 0x00fe:                                MOV R30, R12 
+furious.elf 0x0100:                                LPM R12, Z FLASH[10e9,] 
+furious.elf 0x0100:                                CPU-waitstate
+furious.elf 0x0100:                                CPU-waitstate
+furious.elf 0x0102:                                MOV R16, R1 
+furious.elf 0x0104:                                MOV R30, R5 
+furious.elf 0x0106:                                LPM R1, Z FLASH[10f4,] 
+furious.elf 0x0106:                                CPU-waitstate
+furious.elf 0x0106:                                CPU-waitstate
+furious.elf 0x0108:                                MOV R30, R9 
+furious.elf 0x010a:                                LPM R5, Z FLASH[10c6,] 
+furious.elf 0x010a:                                CPU-waitstate
+furious.elf 0x010a:                                CPU-waitstate
+furious.elf 0x010c:                                MOV R30, R13 
+furious.elf 0x010e:                                LPM R9, Z FLASH[10f8,] 
+furious.elf 0x010e:                                CPU-waitstate
+furious.elf 0x010e:                                CPU-waitstate
+furious.elf 0x0110:                                MOV R30, R16 
+furious.elf 0x0112:                                LPM R13, Z FLASH[103d,] 
+furious.elf 0x0112:                                CPU-waitstate
+furious.elf 0x0112:                                CPU-waitstate
+furious.elf 0x0114:                                MOV R16, R2 
+furious.elf 0x0116:                                MOV R30, R10 
+furious.elf 0x0118:                                LPM R2, Z FLASH[108d,] 
+furious.elf 0x0118:                                CPU-waitstate
+furious.elf 0x0118:                                CPU-waitstate
+furious.elf 0x011a:                                MOV R30, R16 
+furious.elf 0x011c:                                LPM R10, Z FLASH[10e3,] 
+furious.elf 0x011c:                                CPU-waitstate
+furious.elf 0x011c:                                CPU-waitstate
+furious.elf 0x011e:                                MOV R16, R6 
+furious.elf 0x0120:                                MOV R30, R14 
+furious.elf 0x0122:                                LPM R6, Z FLASH[1048,] 
+furious.elf 0x0122:                                CPU-waitstate
+furious.elf 0x0122:                                CPU-waitstate
+furious.elf 0x0124:                                MOV R30, R16 
+furious.elf 0x0126:                                LPM R14, Z FLASH[10e2,] 
+furious.elf 0x0126:                                CPU-waitstate
+furious.elf 0x0126:                                CPU-waitstate
+furious.elf 0x0128:                                MOV R16, R15 
+furious.elf 0x012a:                                MOV R30, R11 
+furious.elf 0x012c:                                LPM R15, Z FLASH[102a,] 
+furious.elf 0x012c:                                CPU-waitstate
+furious.elf 0x012c:                                CPU-waitstate
+furious.elf 0x012e:                                MOV R30, R7 
+furious.elf 0x0130:                                LPM R11, Z FLASH[102b,] 
+furious.elf 0x0130:                                CPU-waitstate
+furious.elf 0x0130:                                CPU-waitstate
+furious.elf 0x0132:                                MOV R30, R3 
+furious.elf 0x0134:                                LPM R7, Z FLASH[10be,] 
+furious.elf 0x0134:                                CPU-waitstate
+furious.elf 0x0134:                                CPU-waitstate
+furious.elf 0x0136:                                MOV R30, R16 
+furious.elf 0x0138:                                LPM R3, Z FLASH[1008,] 
+furious.elf 0x0138:                                CPU-waitstate
+furious.elf 0x0138:                                CPU-waitstate
+furious.elf 0x013a:                                DEC R21 SREG=[--------] 
+furious.elf 0x013c:                                BREQ ->0x0004                                
+furious.elf 0x013e:                                RCALL 184 SP=0x45c 0xa0 SP=0x45b 0x0 
+furious.elf 0x013e:                                CPU-waitstate
+furious.elf 0x013e:                                CPU-waitstate
+furious.elf 0x0184:                                LDI R31, 0x12 
+furious.elf 0x0186:                                MOV R16, R0 
+furious.elf 0x0188:                                EOR R16, R1 SREG=[--------] 
+furious.elf 0x018a:                                EOR R16, R2 SREG=[--------] 
+furious.elf 0x018c:                                EOR R16, R3 SREG=[--------] 
+furious.elf 0x018e:                                MOV R17, R0 
+furious.elf 0x0190:                                MOV R18, R0 
+furious.elf 0x0192:                                EOR R18, R1 SREG=[--------] 
+furious.elf 0x0194:                                MOV R30, R18 
+furious.elf 0x0196:                                LPM R18, Z FLASH[126b,] 
+furious.elf 0x0196:                                CPU-waitstate
+furious.elf 0x0196:                                CPU-waitstate
+furious.elf 0x0198:                                EOR R0, R18 SREG=[--------] 
+furious.elf 0x019a:                                EOR R0, R16 SREG=[--------] 
+furious.elf 0x019c:                                MOV R18, R1 
+furious.elf 0x019e:                                EOR R18, R2 SREG=[---S-N--] 
+furious.elf 0x01a0:                                MOV R30, R18 
+furious.elf 0x01a2:                                LPM R18, Z FLASH[12e2,] 
+furious.elf 0x01a2:                                CPU-waitstate
+furious.elf 0x01a2:                                CPU-waitstate
+furious.elf 0x01a4:                                EOR R1, R18 SREG=[--------] 
+furious.elf 0x01a6:                                EOR R1, R16 SREG=[--------] 
+furious.elf 0x01a8:                                MOV R18, R2 
+furious.elf 0x01aa:                                EOR R18, R3 SREG=[--------] 
+furious.elf 0x01ac:                                MOV R30, R18 
+furious.elf 0x01ae:                                LPM R18, Z FLASH[126d,] 
+furious.elf 0x01ae:                                CPU-waitstate
+furious.elf 0x01ae:                                CPU-waitstate
+furious.elf 0x01b0:                                EOR R2, R18 SREG=[---S-N--] 
+furious.elf 0x01b2:                                EOR R2, R16 SREG=[---S-N--] 
+furious.elf 0x01b4:                                MOV R18, R3 
+furious.elf 0x01b6:                                EOR R18, R17 SREG=[---S-N--] 
+furious.elf 0x01b8:                                MOV R30, R18 
+furious.elf 0x01ba:                                LPM R18, Z FLASH[12e4,] 
+furious.elf 0x01ba:                                CPU-waitstate
+furious.elf 0x01ba:                                CPU-waitstate
+furious.elf 0x01bc:                                EOR R3, R18 SREG=[---S-N--] 
+furious.elf 0x01be:                                EOR R3, R16 SREG=[---S-N--] 
+furious.elf 0x01c0:                                MOV R16, R4 
+furious.elf 0x01c2:                                EOR R16, R5 SREG=[--------] 
+furious.elf 0x01c4:                                EOR R16, R6 SREG=[--------] 
+furious.elf 0x01c6:                                EOR R16, R7 SREG=[---S-N--] 
+furious.elf 0x01c8:                                MOV R17, R4 
+furious.elf 0x01ca:                                MOV R18, R4 
+furious.elf 0x01cc:                                EOR R18, R5 SREG=[--------] 
+furious.elf 0x01ce:                                MOV R30, R18 
+furious.elf 0x01d0:                                LPM R18, Z FLASH[1254,] 
+furious.elf 0x01d0:                                CPU-waitstate
+furious.elf 0x01d0:                                CPU-waitstate
+furious.elf 0x01d2:                                EOR R4, R18 SREG=[--------] 
+furious.elf 0x01d4:                                EOR R4, R16 SREG=[---S-N--] 
+furious.elf 0x01d6:                                MOV R18, R5 
+furious.elf 0x01d8:                                EOR R18, R6 SREG=[---S-N--] 
+furious.elf 0x01da:                                MOV R30, R18 
+furious.elf 0x01dc:                                LPM R18, Z FLASH[12e6,] 
+furious.elf 0x01dc:                                CPU-waitstate
+furious.elf 0x01dc:                                CPU-waitstate
+furious.elf 0x01de:                                EOR R5, R18 SREG=[--------] 
+furious.elf 0x01e0:                                EOR R5, R16 SREG=[---S-N--] 
+furious.elf 0x01e2:                                MOV R18, R6 
+furious.elf 0x01e4:                                EOR R18, R7 SREG=[---S-N--] 
+furious.elf 0x01e6:                                MOV R30, R18 
+furious.elf 0x01e8:                                LPM R18, Z FLASH[12fc,] 
+furious.elf 0x01e8:                                CPU-waitstate
+furious.elf 0x01e8:                                CPU-waitstate
+furious.elf 0x01ea:                                EOR R6, R18 SREG=[---S-N--] 
+furious.elf 0x01ec:                                EOR R6, R16 SREG=[--------] 
+furious.elf 0x01ee:                                MOV R18, R7 
+furious.elf 0x01f0:                                EOR R18, R17 SREG=[--------] 
+furious.elf 0x01f2:                                MOV R30, R18 
+furious.elf 0x01f4:                                LPM R18, Z FLASH[124e,] 
+furious.elf 0x01f4:                                CPU-waitstate
+furious.elf 0x01f4:                                CPU-waitstate
+furious.elf 0x01f6:                                EOR R7, R18 SREG=[--------] 
+furious.elf 0x01f8:                                EOR R7, R16 SREG=[---S-N--] 
+furious.elf 0x01fa:                                MOV R16, R8 
+furious.elf 0x01fc:                                EOR R16, R9 SREG=[---S-N--] 
+furious.elf 0x01fe:                                EOR R16, R10 SREG=[---S-N--] 
+furious.elf 0x0200:                                EOR R16, R11 SREG=[--------] 
+furious.elf 0x0202:                                MOV R17, R8 
+furious.elf 0x0204:                                MOV R18, R8 
+furious.elf 0x0206:                                EOR R18, R9 SREG=[---S-N--] 
+furious.elf 0x0208:                                MOV R30, R18 
+furious.elf 0x020a:                                LPM R18, Z FLASH[12f9,] 
+furious.elf 0x020a:                                CPU-waitstate
+furious.elf 0x020a:                                CPU-waitstate
+furious.elf 0x020c:                                EOR R8, R18 SREG=[--------] 
+furious.elf 0x020e:                                EOR R8, R16 SREG=[--------] 
+furious.elf 0x0210:                                MOV R18, R9 
+furious.elf 0x0212:                                EOR R18, R10 SREG=[--------] 
+furious.elf 0x0214:                                MOV R30, R18 
+furious.elf 0x0216:                                LPM R18, Z FLASH[1250,] 
+furious.elf 0x0216:                                CPU-waitstate
+furious.elf 0x0216:                                CPU-waitstate
+furious.elf 0x0218:                                EOR R9, R18 SREG=[---S-N--] 
+furious.elf 0x021a:                                EOR R9, R16 SREG=[---S-N--] 
+furious.elf 0x021c:                                MOV R18, R10 
+furious.elf 0x021e:                                EOR R18, R11 SREG=[---S-N--] 
+furious.elf 0x0220:                                MOV R30, R18 
+furious.elf 0x0222:                                LPM R18, Z FLASH[12e0,] 
+furious.elf 0x0222:                                CPU-waitstate
+furious.elf 0x0222:                                CPU-waitstate
+furious.elf 0x0224:                                EOR R10, R18 SREG=[---S-N--] 
+furious.elf 0x0226:                                EOR R10, R16 SREG=[---S-N--] 
+furious.elf 0x0228:                                MOV R18, R11 
+furious.elf 0x022a:                                EOR R18, R17 SREG=[--------] 
+furious.elf 0x022c:                                MOV R30, R18 
+furious.elf 0x022e:                                LPM R18, Z FLASH[1249,] 
+furious.elf 0x022e:                                CPU-waitstate
+furious.elf 0x022e:                                CPU-waitstate
+furious.elf 0x0230:                                EOR R11, R18 SREG=[--------] 
+furious.elf 0x0232:                                EOR R11, R16 SREG=[--------] 
+furious.elf 0x0234:                                MOV R16, R12 
+furious.elf 0x0236:                                EOR R16, R13 SREG=[--------] 
+furious.elf 0x0238:                                EOR R16, R14 SREG=[---S-N--] 
+furious.elf 0x023a:                                EOR R16, R15 SREG=[--------] 
+furious.elf 0x023c:                                MOV R17, R12 
+furious.elf 0x023e:                                MOV R18, R12 
+furious.elf 0x0240:                                EOR R18, R13 SREG=[--------] 
+furious.elf 0x0242:                                MOV R30, R18 
+furious.elf 0x0244:                                LPM R18, Z FLASH[1239,] 
+furious.elf 0x0244:                                CPU-waitstate
+furious.elf 0x0244:                                CPU-waitstate
+furious.elf 0x0246:                                EOR R12, R18 SREG=[--------] 
+furious.elf 0x0248:                                EOR R12, R16 SREG=[--------] 
+furious.elf 0x024a:                                MOV R18, R13 
+furious.elf 0x024c:                                EOR R18, R14 SREG=[---S-N--] 
+furious.elf 0x024e:                                MOV R30, R18 
+furious.elf 0x0250:                                LPM R18, Z FLASH[12bf,] 
+furious.elf 0x0250:                                CPU-waitstate
+furious.elf 0x0250:                                CPU-waitstate
+furious.elf 0x0252:                                EOR R13, R18 SREG=[--------] 
+furious.elf 0x0254:                                EOR R13, R16 SREG=[--------] 
+furious.elf 0x0256:                                MOV R18, R14 
+furious.elf 0x0258:                                EOR R18, R15 SREG=[--------] 
+furious.elf 0x025a:                                MOV R30, R18 
+furious.elf 0x025c:                                LPM R18, Z FLASH[127d,] 
+furious.elf 0x025c:                                CPU-waitstate
+furious.elf 0x025c:                                CPU-waitstate
+furious.elf 0x025e:                                EOR R14, R18 SREG=[--------] 
+furious.elf 0x0260:                                EOR R14, R16 SREG=[--------] 
+furious.elf 0x0262:                                MOV R18, R15 
+furious.elf 0x0264:                                EOR R18, R17 SREG=[---S-N--] 
+furious.elf 0x0266:                                MOV R30, R18 
+furious.elf 0x0268:                                LPM R18, Z FLASH[12fb,] 
+furious.elf 0x0268:                                CPU-waitstate
+furious.elf 0x0268:                                CPU-waitstate
+furious.elf 0x026a:                                EOR R15, R18 SREG=[--------] 
+furious.elf 0x026c:                                EOR R15, R16 SREG=[--------] 

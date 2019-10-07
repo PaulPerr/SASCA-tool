@@ -1,0 +1,600 @@
+fantatics.elf 0x0000:                                CLI SREG=[--------] 
+fantatics.elf 0x0002:                                LDI R31, 0x04 
+fantatics.elf 0x0004:                                OUT 0x3e, R31 SP=0x400 
+fantatics.elf 0x0006:                                LDI R31, 0x5f 
+fantatics.elf 0x0008:                                OUT 0x3d, R31 SP=0x45f 
+fantatics.elf 0x000a:                                LDI R31, 0x00 
+fantatics.elf 0x000c:                                LDI R30, 0x60 
+fantatics.elf 0x000e:                                LDI R29, 0x00 
+fantatics.elf 0x0010:                                LDI R28, 0x60 
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[60,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[61,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[62,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[63,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[64,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[65,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[66,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[67,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[68,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[69,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[6a,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[6b,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[6c,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[6d,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[6e,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[---S-N-C] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x0018:                                CPU-waitstate
+fantatics.elf 0x0012:                                LPM R16, Z+ FLASH[6f,] 
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0012:                                CPU-waitstate
+fantatics.elf 0x0014:                                ST Y+, R16 
+fantatics.elf 0x0014:                                CPU-waitstate
+fantatics.elf 0x0016:                                CPI R28, 0x70 SREG=[------Z-] 
+fantatics.elf 0x0018:                                BRNE ->0xfff8                                
+fantatics.elf 0x001a:                                LDI R31, 0x00 
+fantatics.elf 0x001c:                                LDI R30, 0x50 
+fantatics.elf 0x001e:                                LPM R0, Z+ FLASH[50,] 
+fantatics.elf 0x001e:                                CPU-waitstate
+fantatics.elf 0x001e:                                CPU-waitstate
+fantatics.elf 0x0020:                                LPM R1, Z+ FLASH[51,] 
+fantatics.elf 0x0020:                                CPU-waitstate
+fantatics.elf 0x0020:                                CPU-waitstate
+fantatics.elf 0x0022:                                LPM R2, Z+ FLASH[52,] 
+fantatics.elf 0x0022:                                CPU-waitstate
+fantatics.elf 0x0022:                                CPU-waitstate
+fantatics.elf 0x0024:                                LPM R3, Z+ FLASH[53,] 
+fantatics.elf 0x0024:                                CPU-waitstate
+fantatics.elf 0x0024:                                CPU-waitstate
+fantatics.elf 0x0026:                                LPM R4, Z+ FLASH[54,] 
+fantatics.elf 0x0026:                                CPU-waitstate
+fantatics.elf 0x0026:                                CPU-waitstate
+fantatics.elf 0x0028:                                LPM R5, Z+ FLASH[55,] 
+fantatics.elf 0x0028:                                CPU-waitstate
+fantatics.elf 0x0028:                                CPU-waitstate
+fantatics.elf 0x002a:                                LPM R6, Z+ FLASH[56,] 
+fantatics.elf 0x002a:                                CPU-waitstate
+fantatics.elf 0x002a:                                CPU-waitstate
+fantatics.elf 0x002c:                                LPM R7, Z+ FLASH[57,] 
+fantatics.elf 0x002c:                                CPU-waitstate
+fantatics.elf 0x002c:                                CPU-waitstate
+fantatics.elf 0x002e:                                LPM R8, Z+ FLASH[58,] 
+fantatics.elf 0x002e:                                CPU-waitstate
+fantatics.elf 0x002e:                                CPU-waitstate
+fantatics.elf 0x0030:                                LPM R9, Z+ FLASH[59,] 
+fantatics.elf 0x0030:                                CPU-waitstate
+fantatics.elf 0x0030:                                CPU-waitstate
+fantatics.elf 0x0032:                                LPM R10, Z+ FLASH[5a,] 
+fantatics.elf 0x0032:                                CPU-waitstate
+fantatics.elf 0x0032:                                CPU-waitstate
+fantatics.elf 0x0034:                                LPM R11, Z+ FLASH[5b,] 
+fantatics.elf 0x0034:                                CPU-waitstate
+fantatics.elf 0x0034:                                CPU-waitstate
+fantatics.elf 0x0036:                                LPM R12, Z+ FLASH[5c,] 
+fantatics.elf 0x0036:                                CPU-waitstate
+fantatics.elf 0x0036:                                CPU-waitstate
+fantatics.elf 0x0038:                                LPM R13, Z+ FLASH[5d,] 
+fantatics.elf 0x0038:                                CPU-waitstate
+fantatics.elf 0x0038:                                CPU-waitstate
+fantatics.elf 0x003a:                                LPM R14, Z+ FLASH[5e,] 
+fantatics.elf 0x003a:                                CPU-waitstate
+fantatics.elf 0x003a:                                CPU-waitstate
+fantatics.elf 0x003c:                                LPM R15, Z+ FLASH[5f,] 
+fantatics.elf 0x003c:                                CPU-waitstate
+fantatics.elf 0x003c:                                CPU-waitstate
+fantatics.elf 0x003e:                                LDI R29, 0x00 
+fantatics.elf 0x0040:                                LDI R28, 0x60 
+fantatics.elf 0x0042:                                RCALL 70 SP=0x45e 0x22 SP=0x45d 0x0 
+fantatics.elf 0x0042:                                CPU-waitstate
+fantatics.elf 0x0042:                                CPU-waitstate
+fantatics.elf 0x0070:                                LDI R18, 0x01 
+fantatics.elf 0x0072:                                RCALL a8 SP=0x45c 0x3a SP=0x45b 0x0 
+fantatics.elf 0x0072:                                CPU-waitstate
+fantatics.elf 0x0072:                                CPU-waitstate
+fantatics.elf 0x00a8:                                LDD R16, Y+0 
+fantatics.elf 0x00a8:                                CPU-waitstate
+fantatics.elf 0x00aa:                                EOR R0, R16 SREG=[--------] 
+fantatics.elf 0x00ac:                                LDD R16, Y+1 
+fantatics.elf 0x00ac:                                CPU-waitstate
+fantatics.elf 0x00ae:                                EOR R1, R16 SREG=[--------] 
+fantatics.elf 0x00b0:                                LDD R16, Y+2 
+fantatics.elf 0x00b0:                                CPU-waitstate
+fantatics.elf 0x00b2:                                EOR R2, R16 SREG=[---S-N--] 
+fantatics.elf 0x00b4:                                LDD R16, Y+3 
+fantatics.elf 0x00b4:                                CPU-waitstate
+fantatics.elf 0x00b6:                                EOR R3, R16 SREG=[---S-N--] 
+fantatics.elf 0x00b8:                                LDD R16, Y+4 
+fantatics.elf 0x00b8:                                CPU-waitstate
+fantatics.elf 0x00ba:                                EOR R4, R16 SREG=[---S-N--] 
+fantatics.elf 0x00bc:                                LDD R16, Y+5 
+fantatics.elf 0x00bc:                                CPU-waitstate
+fantatics.elf 0x00be:                                EOR R5, R16 SREG=[---S-N--] 
+fantatics.elf 0x00c0:                                LDD R16, Y+6 
+fantatics.elf 0x00c0:                                CPU-waitstate
+fantatics.elf 0x00c2:                                EOR R6, R16 SREG=[---S-N--] 
+fantatics.elf 0x00c4:                                LDD R16, Y+7 
+fantatics.elf 0x00c4:                                CPU-waitstate
+fantatics.elf 0x00c6:                                EOR R7, R16 SREG=[--------] 
+fantatics.elf 0x00c8:                                LDD R16, Y+8 
+fantatics.elf 0x00c8:                                CPU-waitstate
+fantatics.elf 0x00ca:                                EOR R8, R16 SREG=[---S-N--] 
+fantatics.elf 0x00cc:                                LDD R16, Y+9 
+fantatics.elf 0x00cc:                                CPU-waitstate
+fantatics.elf 0x00ce:                                EOR R9, R16 SREG=[---S-N--] 
+fantatics.elf 0x00d0:                                LDD R16, Y+10 
+fantatics.elf 0x00d0:                                CPU-waitstate
+fantatics.elf 0x00d2:                                EOR R10, R16 SREG=[---S-N--] 
+fantatics.elf 0x00d4:                                LDD R16, Y+11 
+fantatics.elf 0x00d4:                                CPU-waitstate
+fantatics.elf 0x00d6:                                EOR R11, R16 SREG=[--------] 
+fantatics.elf 0x00d8:                                LDD R16, Y+12 
+fantatics.elf 0x00d8:                                CPU-waitstate
+fantatics.elf 0x00da:                                EOR R12, R16 SREG=[---S-N--] 
+fantatics.elf 0x00dc:                                LDD R16, Y+13 
+fantatics.elf 0x00dc:                                CPU-waitstate
+fantatics.elf 0x00de:                                EOR R13, R16 SREG=[---S-N--] 
+fantatics.elf 0x00e0:                                LDD R16, Y+14 
+fantatics.elf 0x00e0:                                CPU-waitstate
+fantatics.elf 0x00e2:                                EOR R14, R16 SREG=[--------] 
+fantatics.elf 0x00e4:                                LDD R16, Y+15 
+fantatics.elf 0x00e4:                                CPU-waitstate
+fantatics.elf 0x00e6:                                EOR R15, R16 SREG=[--------] 
+fantatics.elf 0x00e8:                                RET SP=0x45c 0x0 SP=0x45d 0x3a 
+fantatics.elf 0x00e8:                                CPU-waitstate
+fantatics.elf 0x00e8:                                CPU-waitstate
+fantatics.elf 0x00e8:                                CPU-waitstate
+fantatics.elf 0x0074:                                RCALL 2a8 SP=0x45c 0x3b SP=0x45b 0x0 
+fantatics.elf 0x0074:                                CPU-waitstate
+fantatics.elf 0x0074:                                CPU-waitstate
+fantatics.elf 0x02a8:                                LDI R31, 0x10 
+fantatics.elf 0x02aa:                                LDD R17, Y+12 
+fantatics.elf 0x02aa:                                CPU-waitstate
+fantatics.elf 0x02ac:                                LDD R30, Y+13 
+fantatics.elf 0x02ac:                                CPU-waitstate
+fantatics.elf 0x02ae:                                LPM R30, Z FLASH[108a,] 
+fantatics.elf 0x02ae:                                CPU-waitstate
+fantatics.elf 0x02ae:                                CPU-waitstate
+fantatics.elf 0x02b0:                                EOR R30, R18 SREG=[---S-N--] 
+fantatics.elf 0x02b2:                                ADD R18, R18 SREG=[--------] 
+fantatics.elf 0x02b4:                                BRCC ->0x0002                                
+fantatics.elf 0x02b4:                                CPU-waitstate
+fantatics.elf 0x02b8:                                RCALL 2d0 SP=0x45a 0x5d SP=0x459 0x1 
+fantatics.elf 0x02b8:                                CPU-waitstate
+fantatics.elf 0x02b8:                                CPU-waitstate
+fantatics.elf 0x02d0:                                LDD R16, Y+0 
+fantatics.elf 0x02d0:                                CPU-waitstate
+fantatics.elf 0x02d2:                                EOR R30, R16 SREG=[---S-N--] 
+fantatics.elf 0x02d4:                                ST Y+, R30 
+fantatics.elf 0x02d4:                                CPU-waitstate
+fantatics.elf 0x02d6:                                LDD R16, Y+3 
+fantatics.elf 0x02d6:                                CPU-waitstate
+fantatics.elf 0x02d8:                                EOR R30, R16 SREG=[---S-N--] 
+fantatics.elf 0x02da:                                STD Y+3, R30 
+fantatics.elf 0x02da:                                CPU-waitstate
+fantatics.elf 0x02dc:                                LDD R16, Y+7 
+fantatics.elf 0x02dc:                                CPU-waitstate
+fantatics.elf 0x02de:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02e0:                                STD Y+7, R30 
+fantatics.elf 0x02e0:                                CPU-waitstate
+fantatics.elf 0x02e2:                                LDD R16, Y+11 
+fantatics.elf 0x02e2:                                CPU-waitstate
+fantatics.elf 0x02e4:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02e6:                                STD Y+11, R30 
+fantatics.elf 0x02e6:                                CPU-waitstate
+fantatics.elf 0x02e8:                                RET SP=0x45a 0x1 SP=0x45b 0x5d 
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02ba:                                LDD R30, Y+13 
+fantatics.elf 0x02ba:                                CPU-waitstate
+fantatics.elf 0x02bc:                                LPM R30, Z FLASH[1084,] 
+fantatics.elf 0x02bc:                                CPU-waitstate
+fantatics.elf 0x02bc:                                CPU-waitstate
+fantatics.elf 0x02be:                                RCALL 2d0 SP=0x45a 0x60 SP=0x459 0x1 
+fantatics.elf 0x02be:                                CPU-waitstate
+fantatics.elf 0x02be:                                CPU-waitstate
+fantatics.elf 0x02d0:                                LDD R16, Y+0 
+fantatics.elf 0x02d0:                                CPU-waitstate
+fantatics.elf 0x02d2:                                EOR R30, R16 SREG=[---S-N--] 
+fantatics.elf 0x02d4:                                ST Y+, R30 
+fantatics.elf 0x02d4:                                CPU-waitstate
+fantatics.elf 0x02d6:                                LDD R16, Y+3 
+fantatics.elf 0x02d6:                                CPU-waitstate
+fantatics.elf 0x02d8:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02da:                                STD Y+3, R30 
+fantatics.elf 0x02da:                                CPU-waitstate
+fantatics.elf 0x02dc:                                LDD R16, Y+7 
+fantatics.elf 0x02dc:                                CPU-waitstate
+fantatics.elf 0x02de:                                EOR R30, R16 SREG=[---S-N--] 
+fantatics.elf 0x02e0:                                STD Y+7, R30 
+fantatics.elf 0x02e0:                                CPU-waitstate
+fantatics.elf 0x02e2:                                LDD R16, Y+11 
+fantatics.elf 0x02e2:                                CPU-waitstate
+fantatics.elf 0x02e4:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02e6:                                STD Y+11, R30 
+fantatics.elf 0x02e6:                                CPU-waitstate
+fantatics.elf 0x02e8:                                RET SP=0x45a 0x1 SP=0x45b 0x60 
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02c0:                                LDD R30, Y+13 
+fantatics.elf 0x02c0:                                CPU-waitstate
+fantatics.elf 0x02c2:                                LPM R30, Z FLASH[10eb,] 
+fantatics.elf 0x02c2:                                CPU-waitstate
+fantatics.elf 0x02c2:                                CPU-waitstate
+fantatics.elf 0x02c4:                                RCALL 2d0 SP=0x45a 0x63 SP=0x459 0x1 
+fantatics.elf 0x02c4:                                CPU-waitstate
+fantatics.elf 0x02c4:                                CPU-waitstate
+fantatics.elf 0x02d0:                                LDD R16, Y+0 
+fantatics.elf 0x02d0:                                CPU-waitstate
+fantatics.elf 0x02d2:                                EOR R30, R16 SREG=[---S-N--] 
+fantatics.elf 0x02d4:                                ST Y+, R30 
+fantatics.elf 0x02d4:                                CPU-waitstate
+fantatics.elf 0x02d6:                                LDD R16, Y+3 
+fantatics.elf 0x02d6:                                CPU-waitstate
+fantatics.elf 0x02d8:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02da:                                STD Y+3, R30 
+fantatics.elf 0x02da:                                CPU-waitstate
+fantatics.elf 0x02dc:                                LDD R16, Y+7 
+fantatics.elf 0x02dc:                                CPU-waitstate
+fantatics.elf 0x02de:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02e0:                                STD Y+7, R30 
+fantatics.elf 0x02e0:                                CPU-waitstate
+fantatics.elf 0x02e2:                                LDD R16, Y+11 
+fantatics.elf 0x02e2:                                CPU-waitstate
+fantatics.elf 0x02e4:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02e6:                                STD Y+11, R30 
+fantatics.elf 0x02e6:                                CPU-waitstate
+fantatics.elf 0x02e8:                                RET SP=0x45a 0x1 SP=0x45b 0x63 
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02c6:                                MOV R30, R17 
+fantatics.elf 0x02c8:                                LPM R30, Z FLASH[1001,] 
+fantatics.elf 0x02c8:                                CPU-waitstate
+fantatics.elf 0x02c8:                                CPU-waitstate
+fantatics.elf 0x02ca:                                RCALL 2d0 SP=0x45a 0x66 SP=0x459 0x1 
+fantatics.elf 0x02ca:                                CPU-waitstate
+fantatics.elf 0x02ca:                                CPU-waitstate
+fantatics.elf 0x02d0:                                LDD R16, Y+0 
+fantatics.elf 0x02d0:                                CPU-waitstate
+fantatics.elf 0x02d2:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02d4:                                ST Y+, R30 
+fantatics.elf 0x02d4:                                CPU-waitstate
+fantatics.elf 0x02d6:                                LDD R16, Y+3 
+fantatics.elf 0x02d6:                                CPU-waitstate
+fantatics.elf 0x02d8:                                EOR R30, R16 SREG=[---S-N--] 
+fantatics.elf 0x02da:                                STD Y+3, R30 
+fantatics.elf 0x02da:                                CPU-waitstate
+fantatics.elf 0x02dc:                                LDD R16, Y+7 
+fantatics.elf 0x02dc:                                CPU-waitstate
+fantatics.elf 0x02de:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02e0:                                STD Y+7, R30 
+fantatics.elf 0x02e0:                                CPU-waitstate
+fantatics.elf 0x02e2:                                LDD R16, Y+11 
+fantatics.elf 0x02e2:                                CPU-waitstate
+fantatics.elf 0x02e4:                                EOR R30, R16 SREG=[--------] 
+fantatics.elf 0x02e6:                                STD Y+11, R30 
+fantatics.elf 0x02e6:                                CPU-waitstate
+fantatics.elf 0x02e8:                                RET SP=0x45a 0x1 SP=0x45b 0x66 
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02e8:                                CPU-waitstate
+fantatics.elf 0x02cc:                                SBIW R28, 0x04 SREG=[--------] 
+fantatics.elf 0x02cc:                                CPU-waitstate
+fantatics.elf 0x02ce:                                RET SP=0x45c 0x0 SP=0x45d 0x3b 
+fantatics.elf 0x02ce:                                CPU-waitstate
+fantatics.elf 0x02ce:                                CPU-waitstate
+fantatics.elf 0x02ce:                                CPU-waitstate
+fantatics.elf 0x0076:                                RCALL 210 SP=0x45c 0x3c SP=0x45b 0x0 
+fantatics.elf 0x0076:                                CPU-waitstate
+fantatics.elf 0x0076:                                CPU-waitstate
+fantatics.elf 0x0210:                                LDI R31, 0x10 
+fantatics.elf 0x0212:                                MOV R30, R0 
+fantatics.elf 0x0214:                                LPM R0, Z FLASH[1019,] 
+fantatics.elf 0x0214:                                CPU-waitstate
+fantatics.elf 0x0214:                                CPU-waitstate
+fantatics.elf 0x0216:                                MOV R30, R4 
+fantatics.elf 0x0218:                                LPM R4, Z FLASH[10a0,] 
+fantatics.elf 0x0218:                                CPU-waitstate
+fantatics.elf 0x0218:                                CPU-waitstate
+fantatics.elf 0x021a:                                MOV R30, R8 
+fantatics.elf 0x021c:                                LPM R8, Z FLASH[109a,] 
+fantatics.elf 0x021c:                                CPU-waitstate
+fantatics.elf 0x021c:                                CPU-waitstate
+fantatics.elf 0x021e:                                MOV R30, R12 
+fantatics.elf 0x0220:                                LPM R12, Z FLASH[10e9,] 
+fantatics.elf 0x0220:                                CPU-waitstate
+fantatics.elf 0x0220:                                CPU-waitstate
+fantatics.elf 0x0222:                                MOV R16, R1 
+fantatics.elf 0x0224:                                MOV R30, R5 
+fantatics.elf 0x0226:                                LPM R1, Z FLASH[10f4,] 
+fantatics.elf 0x0226:                                CPU-waitstate
+fantatics.elf 0x0226:                                CPU-waitstate
+fantatics.elf 0x0228:                                MOV R30, R9 
+fantatics.elf 0x022a:                                LPM R5, Z FLASH[10c6,] 
+fantatics.elf 0x022a:                                CPU-waitstate
+fantatics.elf 0x022a:                                CPU-waitstate
+fantatics.elf 0x022c:                                MOV R30, R13 
+fantatics.elf 0x022e:                                LPM R9, Z FLASH[10f8,] 
+fantatics.elf 0x022e:                                CPU-waitstate
+fantatics.elf 0x022e:                                CPU-waitstate
+fantatics.elf 0x0230:                                MOV R30, R16 
+fantatics.elf 0x0232:                                LPM R13, Z FLASH[103d,] 
+fantatics.elf 0x0232:                                CPU-waitstate
+fantatics.elf 0x0232:                                CPU-waitstate
+fantatics.elf 0x0234:                                MOV R16, R2 
+fantatics.elf 0x0236:                                MOV R30, R10 
+fantatics.elf 0x0238:                                LPM R2, Z FLASH[108d,] 
+fantatics.elf 0x0238:                                CPU-waitstate
+fantatics.elf 0x0238:                                CPU-waitstate
+fantatics.elf 0x023a:                                MOV R30, R16 
+fantatics.elf 0x023c:                                LPM R10, Z FLASH[10e3,] 
+fantatics.elf 0x023c:                                CPU-waitstate
+fantatics.elf 0x023c:                                CPU-waitstate
+fantatics.elf 0x023e:                                MOV R16, R6 
+fantatics.elf 0x0240:                                MOV R30, R14 
+fantatics.elf 0x0242:                                LPM R6, Z FLASH[1048,] 
+fantatics.elf 0x0242:                                CPU-waitstate
+fantatics.elf 0x0242:                                CPU-waitstate
+fantatics.elf 0x0244:                                MOV R30, R16 
+fantatics.elf 0x0246:                                LPM R14, Z FLASH[10e2,] 
+fantatics.elf 0x0246:                                CPU-waitstate
+fantatics.elf 0x0246:                                CPU-waitstate
+fantatics.elf 0x0248:                                MOV R16, R15 
+fantatics.elf 0x024a:                                MOV R30, R11 
+fantatics.elf 0x024c:                                LPM R15, Z FLASH[102a,] 
+fantatics.elf 0x024c:                                CPU-waitstate
+fantatics.elf 0x024c:                                CPU-waitstate
+fantatics.elf 0x024e:                                MOV R30, R7 
+fantatics.elf 0x0250:                                LPM R11, Z FLASH[102b,] 
+fantatics.elf 0x0250:                                CPU-waitstate
+fantatics.elf 0x0250:                                CPU-waitstate
+fantatics.elf 0x0252:                                MOV R30, R3 
+fantatics.elf 0x0254:                                LPM R7, Z FLASH[10be,] 
+fantatics.elf 0x0254:                                CPU-waitstate
+fantatics.elf 0x0254:                                CPU-waitstate
+fantatics.elf 0x0256:                                MOV R30, R16 
+fantatics.elf 0x0258:                                LPM R3, Z FLASH[1008,] 
+fantatics.elf 0x0258:                                CPU-waitstate
+fantatics.elf 0x0258:                                CPU-waitstate
+fantatics.elf 0x025a:                                RET SP=0x45c 0x0 SP=0x45d 0x3c 
+fantatics.elf 0x025a:                                CPU-waitstate
+fantatics.elf 0x025a:                                CPU-waitstate
+fantatics.elf 0x025a:                                CPU-waitstate
+fantatics.elf 0x0078:                                CPI R18, 0x6c SREG=[--HS-N-C] 
+fantatics.elf 0x007a:                                BREQ ->0x002c                                
+fantatics.elf 0x007c:                                RCALL 14c SP=0x45c 0x3f SP=0x45b 0x0 
+fantatics.elf 0x007c:                                CPU-waitstate
+fantatics.elf 0x007c:                                CPU-waitstate
+fantatics.elf 0x014c:                                LDI R31, 0x12 
+fantatics.elf 0x014e:                                MOV R16, R0 
+fantatics.elf 0x0150:                                EOR R16, R1 SREG=[--H----C] 
+fantatics.elf 0x0152:                                MOV R30, R16 
+fantatics.elf 0x0154:                                EOR R16, R2 SREG=[--H----C] 
+fantatics.elf 0x0156:                                EOR R16, R3 SREG=[--H----C] 
+fantatics.elf 0x0158:                                MOV R17, R0 
+fantatics.elf 0x015a:                                LPM R30, Z FLASH[12d6,] 
+fantatics.elf 0x015a:                                CPU-waitstate
+fantatics.elf 0x015a:                                CPU-waitstate
+fantatics.elf 0x015c:                                EOR R0, R30 SREG=[--H----C] 
+fantatics.elf 0x015e:                                EOR R0, R16 SREG=[--H----C] 
+fantatics.elf 0x0160:                                MOV R30, R1 
+fantatics.elf 0x0162:                                EOR R30, R2 SREG=[--HS-N-C] 
+fantatics.elf 0x0164:                                LPM R30, Z FLASH[12df,] 
+fantatics.elf 0x0164:                                CPU-waitstate
+fantatics.elf 0x0164:                                CPU-waitstate
+fantatics.elf 0x0166:                                EOR R1, R30 SREG=[--H----C] 
+fantatics.elf 0x0168:                                EOR R1, R16 SREG=[--H----C] 
+fantatics.elf 0x016a:                                MOV R30, R2 
+fantatics.elf 0x016c:                                EOR R30, R3 SREG=[--H----C] 
+fantatics.elf 0x016e:                                LPM R30, Z FLASH[12da,] 
+fantatics.elf 0x016e:                                CPU-waitstate
+fantatics.elf 0x016e:                                CPU-waitstate
+fantatics.elf 0x0170:                                EOR R2, R30 SREG=[--HS-N-C] 
+fantatics.elf 0x0172:                                EOR R2, R16 SREG=[--HS-N-C] 
+fantatics.elf 0x0174:                                MOV R30, R3 
+fantatics.elf 0x0176:                                EOR R30, R17 SREG=[--HS-N-C] 
+fantatics.elf 0x0178:                                LPM R30, Z FLASH[12d3,] 
+fantatics.elf 0x0178:                                CPU-waitstate
+fantatics.elf 0x0178:                                CPU-waitstate
+fantatics.elf 0x017a:                                EOR R3, R30 SREG=[--HS-N-C] 
+fantatics.elf 0x017c:                                EOR R3, R16 SREG=[--HS-N-C] 
+fantatics.elf 0x017e:                                MOV R16, R4 
+fantatics.elf 0x0180:                                EOR R16, R5 SREG=[--H----C] 
+fantatics.elf 0x0182:                                MOV R30, R16 
+fantatics.elf 0x0184:                                EOR R16, R6 SREG=[--H----C] 
+fantatics.elf 0x0186:                                EOR R16, R7 SREG=[--HS-N-C] 
+fantatics.elf 0x0188:                                MOV R17, R4 
+fantatics.elf 0x018a:                                LPM R30, Z FLASH[12a8,] 
+fantatics.elf 0x018a:                                CPU-waitstate
+fantatics.elf 0x018a:                                CPU-waitstate
+fantatics.elf 0x018c:                                EOR R4, R30 SREG=[--H----C] 
+fantatics.elf 0x018e:                                EOR R4, R16 SREG=[--HS-N-C] 
+fantatics.elf 0x0190:                                MOV R30, R5 
+fantatics.elf 0x0192:                                EOR R30, R6 SREG=[--HS-N-C] 
+fantatics.elf 0x0194:                                LPM R30, Z FLASH[12d7,] 
+fantatics.elf 0x0194:                                CPU-waitstate
+fantatics.elf 0x0194:                                CPU-waitstate
+fantatics.elf 0x0196:                                EOR R5, R30 SREG=[--H----C] 
+fantatics.elf 0x0198:                                EOR R5, R16 SREG=[--HS-N-C] 
+fantatics.elf 0x019a:                                MOV R30, R6 
+fantatics.elf 0x019c:                                EOR R30, R7 SREG=[--HS-N-C] 
+fantatics.elf 0x019e:                                LPM R30, Z FLASH[12e3,] 
+fantatics.elf 0x019e:                                CPU-waitstate
+fantatics.elf 0x019e:                                CPU-waitstate
+fantatics.elf 0x01a0:                                EOR R6, R30 SREG=[--HS-N-C] 
+fantatics.elf 0x01a2:                                EOR R6, R16 SREG=[--H----C] 
+fantatics.elf 0x01a4:                                MOV R30, R7 
+fantatics.elf 0x01a6:                                EOR R30, R17 SREG=[--H----C] 
+fantatics.elf 0x01a8:                                LPM R30, Z FLASH[129c,] 
+fantatics.elf 0x01a8:                                CPU-waitstate
+fantatics.elf 0x01a8:                                CPU-waitstate
+fantatics.elf 0x01aa:                                EOR R7, R30 SREG=[--H----C] 
+fantatics.elf 0x01ac:                                EOR R7, R16 SREG=[--HS-N-C] 
+fantatics.elf 0x01ae:                                MOV R16, R8 
+fantatics.elf 0x01b0:                                EOR R16, R9 SREG=[--HS-N-C] 
+fantatics.elf 0x01b2:                                MOV R30, R16 
+fantatics.elf 0x01b4:                                EOR R16, R10 SREG=[--HS-N-C] 
+fantatics.elf 0x01b6:                                EOR R16, R11 SREG=[--H----C] 
+fantatics.elf 0x01b8:                                MOV R17, R8 
+fantatics.elf 0x01ba:                                LPM R30, Z FLASH[12e9,] 
+fantatics.elf 0x01ba:                                CPU-waitstate
+fantatics.elf 0x01ba:                                CPU-waitstate
+fantatics.elf 0x01bc:                                EOR R8, R30 SREG=[--H----C] 
+fantatics.elf 0x01be:                                EOR R8, R16 SREG=[--H----C] 
+fantatics.elf 0x01c0:                                MOV R30, R9 
+fantatics.elf 0x01c2:                                EOR R30, R10 SREG=[--H----C] 
+fantatics.elf 0x01c4:                                LPM R30, Z FLASH[12a0,] 
+fantatics.elf 0x01c4:                                CPU-waitstate
+fantatics.elf 0x01c4:                                CPU-waitstate
+fantatics.elf 0x01c6:                                EOR R9, R30 SREG=[--HS-N-C] 
+fantatics.elf 0x01c8:                                EOR R9, R16 SREG=[--HS-N-C] 
+fantatics.elf 0x01ca:                                MOV R30, R10 
+fantatics.elf 0x01cc:                                EOR R30, R11 SREG=[--HS-N-C] 
+fantatics.elf 0x01ce:                                LPM R30, Z FLASH[12db,] 
+fantatics.elf 0x01ce:                                CPU-waitstate
+fantatics.elf 0x01ce:                                CPU-waitstate
+fantatics.elf 0x01d0:                                EOR R10, R30 SREG=[--HS-N-C] 
+fantatics.elf 0x01d2:                                EOR R10, R16 SREG=[--HS-N-C] 
+fantatics.elf 0x01d4:                                MOV R30, R11 
+fantatics.elf 0x01d6:                                EOR R30, R17 SREG=[--H----C] 
+fantatics.elf 0x01d8:                                LPM R30, Z FLASH[1292,] 
+fantatics.elf 0x01d8:                                CPU-waitstate
+fantatics.elf 0x01d8:                                CPU-waitstate
+fantatics.elf 0x01da:                                EOR R11, R30 SREG=[--H----C] 
+fantatics.elf 0x01dc:                                EOR R11, R16 SREG=[--H----C] 
+fantatics.elf 0x01de:                                MOV R16, R12 
+fantatics.elf 0x01e0:                                EOR R16, R13 SREG=[--H----C] 
+fantatics.elf 0x01e2:                                MOV R30, R16 
+fantatics.elf 0x01e4:                                EOR R16, R14 SREG=[--HS-N-C] 
+fantatics.elf 0x01e6:                                EOR R16, R15 SREG=[--H----C] 
+fantatics.elf 0x01e8:                                MOV R17, R12 
+fantatics.elf 0x01ea:                                LPM R30, Z FLASH[1272,] 
+fantatics.elf 0x01ea:                                CPU-waitstate
+fantatics.elf 0x01ea:                                CPU-waitstate
+fantatics.elf 0x01ec:                                EOR R12, R30 SREG=[--H----C] 
+fantatics.elf 0x01ee:                                EOR R12, R16 SREG=[--H----C] 
+fantatics.elf 0x01f0:                                MOV R30, R13 
+fantatics.elf 0x01f2:                                EOR R30, R14 SREG=[--HS-N-C] 
+fantatics.elf 0x01f4:                                LPM R30, Z FLASH[1265,] 
+fantatics.elf 0x01f4:                                CPU-waitstate
+fantatics.elf 0x01f4:                                CPU-waitstate
+fantatics.elf 0x01f6:                                EOR R13, R30 SREG=[--H----C] 
+fantatics.elf 0x01f8:                                EOR R13, R16 SREG=[--H----C] 
+fantatics.elf 0x01fa:                                MOV R30, R14 
+fantatics.elf 0x01fc:                                EOR R30, R15 SREG=[--H----C] 
+fantatics.elf 0x01fe:                                LPM R30, Z FLASH[12fa,] 
+fantatics.elf 0x01fe:                                CPU-waitstate
+fantatics.elf 0x01fe:                                CPU-waitstate
+fantatics.elf 0x0200:                                EOR R14, R30 SREG=[--H----C] 
+fantatics.elf 0x0202:                                EOR R14, R16 SREG=[--H----C] 
+fantatics.elf 0x0204:                                MOV R30, R15 
+fantatics.elf 0x0206:                                EOR R30, R17 SREG=[--HS-N-C] 
+fantatics.elf 0x0208:                                LPM R30, Z FLASH[12ed,] 
+fantatics.elf 0x0208:                                CPU-waitstate
+fantatics.elf 0x0208:                                CPU-waitstate
+fantatics.elf 0x020a:                                EOR R15, R30 SREG=[--H----C] 
+fantatics.elf 0x020c:                                EOR R15, R16 SREG=[--H----C] 
